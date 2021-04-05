@@ -47,7 +47,7 @@ namespace ACC_FuelCalculator
             this.label_LapsValue = new System.Windows.Forms.Label();
             this.label_PitstopHeader = new System.Windows.Forms.Label();
             this.label_PitstopsNeededValue = new System.Windows.Forms.Label();
-            this.DropBox_SelectedCar = new System.Windows.Forms.CheckedListBox();
+            this.listBox_CarSelector = new System.Windows.Forms.ListBox();
             ((System.ComponentModel.ISupportInitialize)(this.NumberField_AvgFuelUsage)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.NumberField_LapTimeMinutes)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.NumberField_LapTimeSeconds)).BeginInit();
@@ -72,14 +72,12 @@ namespace ACC_FuelCalculator
             this.NumberField_AvgFuelUsage.BackColor = System.Drawing.SystemColors.Window;
             resources.ApplyResources(this.NumberField_AvgFuelUsage, "NumberField_AvgFuelUsage");
             this.NumberField_AvgFuelUsage.Name = "NumberField_AvgFuelUsage";
-            this.NumberField_AvgFuelUsage.ValueChanged += new System.EventHandler(this.AvgFuelUsageInputField_ValueChanged);
             // 
             // NumberField_LapTimeMinutes
             // 
             this.NumberField_LapTimeMinutes.BackColor = System.Drawing.SystemColors.Window;
             resources.ApplyResources(this.NumberField_LapTimeMinutes, "NumberField_LapTimeMinutes");
             this.NumberField_LapTimeMinutes.Name = "NumberField_LapTimeMinutes";
-            this.NumberField_LapTimeMinutes.ValueChanged += new System.EventHandler(this.NumberField_LapTimeMinutes_ValueChanged);
             // 
             // label_LapTimeHeader
             // 
@@ -149,47 +147,46 @@ namespace ACC_FuelCalculator
             resources.ApplyResources(this.label_PitstopsNeededValue, "label_PitstopsNeededValue");
             this.label_PitstopsNeededValue.Name = "label_PitstopsNeededValue";
             // 
-            // DropBox_SelectedCar
+            // listBox_CarSelector
             // 
-            this.DropBox_SelectedCar.CheckOnClick = true;
-            this.DropBox_SelectedCar.FormattingEnabled = true;
-            this.DropBox_SelectedCar.Items.AddRange(new object[] {
-            resources.GetString("DropBox_SelectedCar.Items"),
-            resources.GetString("DropBox_SelectedCar.Items1"),
-            resources.GetString("DropBox_SelectedCar.Items2"),
-            resources.GetString("DropBox_SelectedCar.Items3"),
-            resources.GetString("DropBox_SelectedCar.Items4"),
-            resources.GetString("DropBox_SelectedCar.Items5"),
-            resources.GetString("DropBox_SelectedCar.Items6"),
-            resources.GetString("DropBox_SelectedCar.Items7"),
-            resources.GetString("DropBox_SelectedCar.Items8"),
-            resources.GetString("DropBox_SelectedCar.Items9"),
-            resources.GetString("DropBox_SelectedCar.Items10"),
-            resources.GetString("DropBox_SelectedCar.Items11"),
-            resources.GetString("DropBox_SelectedCar.Items12"),
-            resources.GetString("DropBox_SelectedCar.Items13"),
-            resources.GetString("DropBox_SelectedCar.Items14"),
-            resources.GetString("DropBox_SelectedCar.Items15"),
-            resources.GetString("DropBox_SelectedCar.Items16"),
-            resources.GetString("DropBox_SelectedCar.Items17"),
-            resources.GetString("DropBox_SelectedCar.Items18"),
-            resources.GetString("DropBox_SelectedCar.Items19"),
-            resources.GetString("DropBox_SelectedCar.Items20"),
-            resources.GetString("DropBox_SelectedCar.Items21"),
-            resources.GetString("DropBox_SelectedCar.Items22"),
-            resources.GetString("DropBox_SelectedCar.Items23"),
-            resources.GetString("DropBox_SelectedCar.Items24"),
-            resources.GetString("DropBox_SelectedCar.Items25")});
-            resources.ApplyResources(this.DropBox_SelectedCar, "DropBox_SelectedCar");
-            this.DropBox_SelectedCar.Name = "DropBox_SelectedCar";
-            this.DropBox_SelectedCar.SelectedIndexChanged += new System.EventHandler(this.DropBox_SelectedCar_SelectedIndexChanged);
+            resources.ApplyResources(this.listBox_CarSelector, "listBox_CarSelector");
+            this.listBox_CarSelector.FormattingEnabled = true;
+            this.listBox_CarSelector.Items.AddRange(new object[] {
+            resources.GetString("listBox_CarSelector.Items"),
+            resources.GetString("listBox_CarSelector.Items1"),
+            resources.GetString("listBox_CarSelector.Items2"),
+            resources.GetString("listBox_CarSelector.Items3"),
+            resources.GetString("listBox_CarSelector.Items4"),
+            resources.GetString("listBox_CarSelector.Items5"),
+            resources.GetString("listBox_CarSelector.Items6"),
+            resources.GetString("listBox_CarSelector.Items7"),
+            resources.GetString("listBox_CarSelector.Items8"),
+            resources.GetString("listBox_CarSelector.Items9"),
+            resources.GetString("listBox_CarSelector.Items10"),
+            resources.GetString("listBox_CarSelector.Items11"),
+            resources.GetString("listBox_CarSelector.Items12"),
+            resources.GetString("listBox_CarSelector.Items13"),
+            resources.GetString("listBox_CarSelector.Items14"),
+            resources.GetString("listBox_CarSelector.Items15"),
+            resources.GetString("listBox_CarSelector.Items16"),
+            resources.GetString("listBox_CarSelector.Items17"),
+            resources.GetString("listBox_CarSelector.Items18"),
+            resources.GetString("listBox_CarSelector.Items19"),
+            resources.GetString("listBox_CarSelector.Items20"),
+            resources.GetString("listBox_CarSelector.Items21"),
+            resources.GetString("listBox_CarSelector.Items22"),
+            resources.GetString("listBox_CarSelector.Items23"),
+            resources.GetString("listBox_CarSelector.Items24"),
+            resources.GetString("listBox_CarSelector.Items25")});
+            this.listBox_CarSelector.Name = "listBox_CarSelector";
+            this.listBox_CarSelector.SelectedIndexChanged += new System.EventHandler(this.listBox1_SelectedIndexChanged);
             // 
             // ACC_FC_Window
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.Controls.Add(this.DropBox_SelectedCar);
+            this.Controls.Add(this.listBox_CarSelector);
             this.Controls.Add(this.label_LapsValue);
             this.Controls.Add(this.label_PitstopsNeededValue);
             this.Controls.Add(this.label_FuelNeededValue);
@@ -249,9 +246,7 @@ namespace ACC_FuelCalculator
         private System.Windows.Forms.NumericUpDown NumberField_LapTimeMinutes;
         private System.Windows.Forms.NumericUpDown NumberField_LapTimeSeconds;
         private System.Windows.Forms.NumericUpDown NumberField_RaceLengthInMinutes;
-
-        // Check Box
-        private System.Windows.Forms.CheckedListBox DropBox_SelectedCar;
+        private System.Windows.Forms.ListBox listBox_CarSelector;
 
         //IDK
     }
