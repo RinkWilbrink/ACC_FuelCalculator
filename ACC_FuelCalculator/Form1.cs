@@ -8,7 +8,6 @@ namespace ACC_FuelCalculator
         public ACC_FC_Window()
         {
             InitializeComponent();
-            
         }
 
         // on Load
@@ -16,6 +15,9 @@ namespace ACC_FuelCalculator
         {
             NumberField_AvgFuelUsage.DecimalPlaces = 1;
             NumberField_AvgFuelUsage.Increment = 0.1M;
+
+            NumberField_LapTimeSeconds.Maximum = 59;
+            NumberField_LapTimeMinutes.Maximum = 2;
         }
 
         // Buttons and Input field
@@ -23,28 +25,33 @@ namespace ACC_FuelCalculator
         private void CalculateFuelButton_Click(object sender, EventArgs e)
         {
             Label_FuelUsageHeader.Text = NumberField_AvgFuelUsage.Value.ToString();
-        }
 
-        private void AvgFuelUsageInputField_ValueChanged(object sender, EventArgs e)
-        {
+            float FuelPerLap = (float)NumberField_AvgFuelUsage.Value;
+            float RaceLenghtToSeconds = (float)NumberField_RaceLengthInMinutes.Value * 60;
+            float laptimeInSeconds = ((float)NumberField_LapTimeMinutes.Value * 60) + (float)NumberField_LapTimeSeconds.Value;
+
+            CalculateFuel(FuelPerLap, RaceLenghtToSeconds, laptimeInSeconds);
         }
 
         // ---------------------------------------------------------------
 
         #region Custom Methods and Functions
 
-        private void CalculateFuel(float FuelPerLap, float RaceLengthInMinutes, float AvgLapTime)
+        private void CalculateFuel(float FuelPerLap, float RaceLengthInSeconds, float AvgLapTimeSec)
         {
 
         }
 
         #endregion
 
-        #region Useless
+        private void AvgFuelUsageInputField_ValueChanged(object sender, EventArgs e)
+        {
 
-        private void label1_Click(object sender, EventArgs e) { }
-        private void label2_Click(object sender, EventArgs e) { }
+        }
 
-        #endregion
+        private void NumberField_LapTimeMinutes_ValueChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
