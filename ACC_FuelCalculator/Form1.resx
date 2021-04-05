@@ -144,7 +144,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;CalculateFuelButton.ZOrder" xml:space="preserve">
-    <value>16</value>
+    <value>17</value>
   </data>
   <data name="Label_FuelUsageHeader.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -174,7 +174,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Label_FuelUsageHeader.ZOrder" xml:space="preserve">
-    <value>15</value>
+    <value>16</value>
   </data>
   <data name="NumberField_AvgFuelUsage.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 10pt</value>
@@ -198,7 +198,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;NumberField_AvgFuelUsage.ZOrder" xml:space="preserve">
-    <value>14</value>
+    <value>15</value>
   </data>
   <data name="NumberField_LapTimeMinutes.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 10pt</value>
@@ -222,7 +222,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;NumberField_LapTimeMinutes.ZOrder" xml:space="preserve">
-    <value>13</value>
+    <value>14</value>
   </data>
   <data name="label_LapTimeHeader.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -252,7 +252,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;label_LapTimeHeader.ZOrder" xml:space="preserve">
-    <value>12</value>
+    <value>13</value>
   </data>
   <data name="Label_LapTimeMinutes.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -282,7 +282,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Label_LapTimeMinutes.ZOrder" xml:space="preserve">
-    <value>10</value>
+    <value>11</value>
   </data>
   <data name="Label_LapTimeSeconds.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -312,7 +312,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Label_LapTimeSeconds.ZOrder" xml:space="preserve">
-    <value>8</value>
+    <value>9</value>
   </data>
   <data name="NumberField_LapTimeSeconds.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 10pt</value>
@@ -336,7 +336,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;NumberField_LapTimeSeconds.ZOrder" xml:space="preserve">
-    <value>7</value>
+    <value>8</value>
   </data>
   <data name="NumberField_RaceLengthInMinutes.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 10pt</value>
@@ -360,7 +360,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;NumberField_RaceLengthInMinutes.ZOrder" xml:space="preserve">
-    <value>6</value>
+    <value>7</value>
   </data>
   <data name="Label_RaceLengthHeader.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -390,7 +390,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Label_RaceLengthHeader.ZOrder" xml:space="preserve">
-    <value>11</value>
+    <value>12</value>
   </data>
   <data name="Label_FuelUsageInLiters.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -420,7 +420,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Label_FuelUsageInLiters.ZOrder" xml:space="preserve">
-    <value>9</value>
+    <value>10</value>
   </data>
   <data name="label_FuelNeededHeader.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -453,7 +453,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;label_FuelNeededHeader.ZOrder" xml:space="preserve">
-    <value>5</value>
+    <value>6</value>
   </data>
   <data name="label_FuelNeededValue.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -483,7 +483,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;label_FuelNeededValue.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>3</value>
   </data>
   <data name="label_LapsHeader.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -520,7 +520,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;label_LapsHeader.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>4</value>
   </data>
   <data name="label_LapsValue.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -553,7 +553,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;label_LapsValue.ZOrder" xml:space="preserve">
-    <value>0</value>
+    <value>1</value>
   </data>
   <data name="label_PitstopHeader.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -589,7 +589,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;label_PitstopHeader.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>5</value>
   </data>
   <data name="label_PitstopsNeededValue.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -622,7 +622,106 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;label_PitstopsNeededValue.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>2</value>
+  </data>
+  <data name="DropBox_SelectedCar.Items" xml:space="preserve">
+    <value>Aston Martin V12 Vantage GT3 2013</value>
+  </data>
+  <data name="DropBox_SelectedCar.Items1" xml:space="preserve">
+    <value>Aston Martin V8 Vantage GT3 2019</value>
+  </data>
+  <data name="DropBox_SelectedCar.Items2" xml:space="preserve">
+    <value>Audi R8 LMS 2015</value>
+  </data>
+  <data name="DropBox_SelectedCar.Items3" xml:space="preserve">
+    <value>Audi R8 LMS Evo 2019</value>
+  </data>
+  <data name="DropBox_SelectedCar.Items4" xml:space="preserve">
+    <value>Bentley Continental GT3 2015</value>
+  </data>
+  <data name="DropBox_SelectedCar.Items5" xml:space="preserve">
+    <value>Bentley Continental GT3 2018</value>
+  </data>
+  <data name="DropBox_SelectedCar.Items6" xml:space="preserve">
+    <value>BMW M6 GT3 2017</value>
+  </data>
+  <data name="DropBox_SelectedCar.Items7" xml:space="preserve">
+    <value>Emil Frey Jaguar G3 2012</value>
+  </data>
+  <data name="DropBox_SelectedCar.Items8" xml:space="preserve">
+    <value>Ferrari 488 GT3 2018</value>
+  </data>
+  <data name="DropBox_SelectedCar.Items9" xml:space="preserve">
+    <value>Ferrari 488 GT3 Evo 2020</value>
+  </data>
+  <data name="DropBox_SelectedCar.Items10" xml:space="preserve">
+    <value>Honda NSX GT3 2017</value>
+  </data>
+  <data name="DropBox_SelectedCar.Items11" xml:space="preserve">
+    <value>Honda NSX GT3 Evo 2019</value>
+  </data>
+  <data name="DropBox_SelectedCar.Items12" xml:space="preserve">
+    <value>Lamborghini Huracan GT3 2015</value>
+  </data>
+  <data name="DropBox_SelectedCar.Items13" xml:space="preserve">
+    <value>Lamborghini Huracan GT3 Evo 2019</value>
+  </data>
+  <data name="DropBox_SelectedCar.Items14" xml:space="preserve">
+    <value>Lamborghini Huracan ST 2015</value>
+  </data>
+  <data name="DropBox_SelectedCar.Items15" xml:space="preserve">
+    <value>Lexus RC F GT3 2016</value>
+  </data>
+  <data name="DropBox_SelectedCar.Items16" xml:space="preserve">
+    <value>McLaren 650S GT4 2015</value>
+  </data>
+  <data name="DropBox_SelectedCar.Items17" xml:space="preserve">
+    <value>McLaren 720S GT4 2019</value>
+  </data>
+  <data name="DropBox_SelectedCar.Items18" xml:space="preserve">
+    <value>Mercedes-AMG GT3 2015</value>
+  </data>
+  <data name="DropBox_SelectedCar.Items19" xml:space="preserve">
+    <value>Mercedes-AMG GT3 Evo 2020</value>
+  </data>
+  <data name="DropBox_SelectedCar.Items20" xml:space="preserve">
+    <value>Nissan GT-R Nismo GT3 2015</value>
+  </data>
+  <data name="DropBox_SelectedCar.Items21" xml:space="preserve">
+    <value>Nissan GT-R Nismo GT3 2018</value>
+  </data>
+  <data name="DropBox_SelectedCar.Items22" xml:space="preserve">
+    <value>Porsche 991 GT3 R 2018</value>
+  </data>
+  <data name="DropBox_SelectedCar.Items23" xml:space="preserve">
+    <value>Porsche 991 II GT3 Cup 2017</value>
+  </data>
+  <data name="DropBox_SelectedCar.Items24" xml:space="preserve">
+    <value>Porsche 991 II GT3 R 2019</value>
+  </data>
+  <data name="DropBox_SelectedCar.Items25" xml:space="preserve">
+    <value>Reiter Engineering R-EX GT3 2017</value>
+  </data>
+  <data name="DropBox_SelectedCar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>263, 10</value>
+  </data>
+  <data name="DropBox_SelectedCar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>211, 394</value>
+  </data>
+  <data name="DropBox_SelectedCar.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;DropBox_SelectedCar.Name" xml:space="preserve">
+    <value>DropBox_SelectedCar</value>
+  </data>
+  <data name="&gt;&gt;DropBox_SelectedCar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckedListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DropBox_SelectedCar.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;DropBox_SelectedCar.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
@@ -631,7 +730,7 @@
     <value>6, 13</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>334, 461</value>
+    <value>486, 421</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>

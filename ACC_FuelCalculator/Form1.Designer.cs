@@ -47,6 +47,7 @@ namespace ACC_FuelCalculator
             this.label_LapsValue = new System.Windows.Forms.Label();
             this.label_PitstopHeader = new System.Windows.Forms.Label();
             this.label_PitstopsNeededValue = new System.Windows.Forms.Label();
+            this.DropBox_SelectedCar = new System.Windows.Forms.CheckedListBox();
             ((System.ComponentModel.ISupportInitialize)(this.NumberField_AvgFuelUsage)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.NumberField_LapTimeMinutes)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.NumberField_LapTimeSeconds)).BeginInit();
@@ -148,11 +149,47 @@ namespace ACC_FuelCalculator
             resources.ApplyResources(this.label_PitstopsNeededValue, "label_PitstopsNeededValue");
             this.label_PitstopsNeededValue.Name = "label_PitstopsNeededValue";
             // 
+            // DropBox_SelectedCar
+            // 
+            this.DropBox_SelectedCar.CheckOnClick = true;
+            this.DropBox_SelectedCar.FormattingEnabled = true;
+            this.DropBox_SelectedCar.Items.AddRange(new object[] {
+            resources.GetString("DropBox_SelectedCar.Items"),
+            resources.GetString("DropBox_SelectedCar.Items1"),
+            resources.GetString("DropBox_SelectedCar.Items2"),
+            resources.GetString("DropBox_SelectedCar.Items3"),
+            resources.GetString("DropBox_SelectedCar.Items4"),
+            resources.GetString("DropBox_SelectedCar.Items5"),
+            resources.GetString("DropBox_SelectedCar.Items6"),
+            resources.GetString("DropBox_SelectedCar.Items7"),
+            resources.GetString("DropBox_SelectedCar.Items8"),
+            resources.GetString("DropBox_SelectedCar.Items9"),
+            resources.GetString("DropBox_SelectedCar.Items10"),
+            resources.GetString("DropBox_SelectedCar.Items11"),
+            resources.GetString("DropBox_SelectedCar.Items12"),
+            resources.GetString("DropBox_SelectedCar.Items13"),
+            resources.GetString("DropBox_SelectedCar.Items14"),
+            resources.GetString("DropBox_SelectedCar.Items15"),
+            resources.GetString("DropBox_SelectedCar.Items16"),
+            resources.GetString("DropBox_SelectedCar.Items17"),
+            resources.GetString("DropBox_SelectedCar.Items18"),
+            resources.GetString("DropBox_SelectedCar.Items19"),
+            resources.GetString("DropBox_SelectedCar.Items20"),
+            resources.GetString("DropBox_SelectedCar.Items21"),
+            resources.GetString("DropBox_SelectedCar.Items22"),
+            resources.GetString("DropBox_SelectedCar.Items23"),
+            resources.GetString("DropBox_SelectedCar.Items24"),
+            resources.GetString("DropBox_SelectedCar.Items25")});
+            resources.ApplyResources(this.DropBox_SelectedCar, "DropBox_SelectedCar");
+            this.DropBox_SelectedCar.Name = "DropBox_SelectedCar";
+            this.DropBox_SelectedCar.SelectedIndexChanged += new System.EventHandler(this.DropBox_SelectedCar_SelectedIndexChanged);
+            // 
             // ACC_FC_Window
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
+            this.Controls.Add(this.DropBox_SelectedCar);
             this.Controls.Add(this.label_LapsValue);
             this.Controls.Add(this.label_PitstopsNeededValue);
             this.Controls.Add(this.label_FuelNeededValue);
@@ -212,6 +249,11 @@ namespace ACC_FuelCalculator
         private System.Windows.Forms.NumericUpDown NumberField_LapTimeMinutes;
         private System.Windows.Forms.NumericUpDown NumberField_LapTimeSeconds;
         private System.Windows.Forms.NumericUpDown NumberField_RaceLengthInMinutes;
+
+        // Check Box
+        private System.Windows.Forms.CheckedListBox DropBox_SelectedCar;
+
+        //IDK
     }
 }
 

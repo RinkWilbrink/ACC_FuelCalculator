@@ -39,7 +39,11 @@ namespace ACC_FuelCalculator
 
         private void CalculateFuel(float FuelPerLap, float RaceLengthInSeconds, float AvgLapTimeSec)
         {
+            int LapCount = (int)Math.Round((RaceLengthInSeconds / AvgLapTimeSec) + 0.5f, 0);
+            label_LapsValue.Text = string.Format("{0}", LapCount);
 
+            int LitersNecesairyForRace = (int)Math.Round((LapCount * FuelPerLap) + 0.5f, 0);
+            label_FuelNeededValue.Text = string.Format("{0}", LitersNecesairyForRace);
         }
 
         #endregion
@@ -52,6 +56,29 @@ namespace ACC_FuelCalculator
         private void NumberField_LapTimeMinutes_ValueChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void DropBox_SelectedCar_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            //if(DropBox_SelectedCar.Items.Count > 1)
+            //{
+            //    for (int i = 0; i < DropBox_SelectedCar.Items.Count; i++)
+            //    {
+            //        DropBox_SelectedCar.SetItemChecked(i, false);
+            //    }
+            //}
+
+            //for (int ix = 0; ix < DropBox_SelectedCar.Items.Count; ++ix)
+            //{
+            //    if (ix != e.Index) DropBox_SelectedCar.SetItemChecked(ix, false);
+            //}
+
+            //if (e.NewValue == CheckState.Checked && DropBox_SelectedCar.CheckedItems.Count > 0)
+            //{
+            //    DropBox_SelectedCar.ItemCheck -= DropBox_SelectedCar_SelectedIndexChanged;
+            //    DropBox_SelectedCar.SetItemChecked(DropBox_SelectedCar.CheckedIndices[0], false);
+            //    DropBox_SelectedCar.ItemCheck += DropBox_SelectedCar_SelectedIndexChanged;
+            //}
         }
     }
 }
