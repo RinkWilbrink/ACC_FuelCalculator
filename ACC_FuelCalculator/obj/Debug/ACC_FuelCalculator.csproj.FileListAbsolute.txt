@@ -7,4 +7,4 @@ E:\School and Work\repos\ACC_FuelCalculator\ACC_FuelCalculator\obj\Debug\ACC_Fue
 E:\School and Work\repos\ACC_FuelCalculator\ACC_FuelCalculator\obj\Debug\ACC_FuelCalculator.csproj.CoreCompileInputs.cache
 E:\School and Work\repos\ACC_FuelCalculator\ACC_FuelCalculator\obj\Debug\ACC_FuelCalculator.exe
 E:\School and Work\repos\ACC_FuelCalculator\ACC_FuelCalculator\obj\Debug\ACC_FuelCalculator.pdb
-E:\School and Work\repos\ACC_FuelCalculator\ACC_FuelCalculator\obj\Debug\ACC_FuelCalculator.Form1.resources
+E:\School and Work\repos\ACC_FuelCalculator\ACC_FuelCalculator\obj\Debug\ACC_FuelCalculator.ACC_FC_Window.resources
