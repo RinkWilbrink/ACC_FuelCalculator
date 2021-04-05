@@ -29,21 +29,21 @@ namespace ACC_FuelCalculator
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
+            this.CalculateFuelButton = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
-            this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
+            this.FuelUsageInputField = new System.Windows.Forms.NumericUpDown();
+            ((System.ComponentModel.ISupportInitialize)(this.FuelUsageInputField)).BeginInit();
             this.SuspendLayout();
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(510, 245);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(93, 37);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Calculate Fuel";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.CalculateFuelButton.Location = new System.Drawing.Point(510, 245);
+            this.CalculateFuelButton.Name = "button1";
+            this.CalculateFuelButton.Size = new System.Drawing.Size(93, 37);
+            this.CalculateFuelButton.TabIndex = 0;
+            this.CalculateFuelButton.Text = "Calculate Fuel";
+            this.CalculateFuelButton.UseVisualStyleBackColor = true;
+            this.CalculateFuelButton.Click += new System.EventHandler(this.button1_Click);
             // 
             // label1
             // 
@@ -57,23 +57,23 @@ namespace ACC_FuelCalculator
             // 
             // numericUpDown1
             // 
-            this.numericUpDown1.Location = new System.Drawing.Point(124, 146);
-            this.numericUpDown1.Name = "numericUpDown1";
-            this.numericUpDown1.Size = new System.Drawing.Size(162, 20);
-            this.numericUpDown1.TabIndex = 3;
-            this.numericUpDown1.ValueChanged += new System.EventHandler(this.numericUpDown1_ValueChanged);
+            this.FuelUsageInputField.Location = new System.Drawing.Point(124, 146);
+            this.FuelUsageInputField.Name = "numericUpDown1";
+            this.FuelUsageInputField.Size = new System.Drawing.Size(162, 20);
+            this.FuelUsageInputField.TabIndex = 3;
+            this.FuelUsageInputField.ValueChanged += new System.EventHandler(this.numericUpDown1_ValueChanged);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.numericUpDown1);
+            this.Controls.Add(this.FuelUsageInputField);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.CalculateFuelButton);
             this.Name = "Form1";
             this.Text = "Form1";
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.FuelUsageInputField)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -81,9 +81,9 @@ namespace ACC_FuelCalculator
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button CalculateFuelButton;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.NumericUpDown numericUpDown1;
+        private System.Windows.Forms.NumericUpDown FuelUsageInputField;
     }
 }
 
