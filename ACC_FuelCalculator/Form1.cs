@@ -136,5 +136,60 @@ namespace ACC_FuelCalculator
 
             carSelected = (CarSelection)listBox_CarSelector.SelectedIndex;
         }
+
+
+        /* 
+         * Info
+         * https://stackoverflow.com/questions/571074/how-to-select-all-text-in-winforms-numericupdown-upon-tab-in
+        */
+
+        #region Select All NumericUpDown
+
+        bool AvgFuelUsage_selectByMouse = false;
+        private void NumberField_AvgFuelUsage_Enter(object sender, EventArgs e)
+        {
+            NumericUpDown curBox = sender as NumericUpDown;
+            curBox.Select();
+            curBox.Select(0, curBox.Text.Length);
+            if (MouseButtons == MouseButtons.Left)
+            {
+                AvgFuelUsage_selectByMouse = true;
+            }
+        }
+        private void NumberField_AvgFuelUsage_MouseDown(object sender, MouseEventArgs e)
+        {
+            NumericUpDown curBox = sender as NumericUpDown;
+            if (AvgFuelUsage_selectByMouse)
+            {
+                curBox.Select(0, curBox.Text.Length);
+                AvgFuelUsage_selectByMouse = false;
+            }
+        }
+
+        //--------------------------------------------------
+
+        /*
+        bool AvgFuelUsage_selectByMouse = false;
+        private void NumberField_AvgFuelUsage_Enter(object sender, EventArgs e)
+        {
+            NumericUpDown curBox = sender as NumericUpDown;
+            curBox.Select();
+            curBox.Select(0, curBox.Text.Length);
+            if (MouseButtons == MouseButtons.Left)
+            {
+                AvgFuelUsage_selectByMouse = true;
+            }
+        }
+        private void NumberField_AvgFuelUsage_MouseDown(object sender, MouseEventArgs e)
+        {
+            NumericUpDown curBox = sender as NumericUpDown;
+            if (AvgFuelUsage_selectByMouse)
+            {
+                curBox.Select(0, curBox.Text.Length);
+                AvgFuelUsage_selectByMouse = false;
+            }
+        }*/
+
+        #endregion
     }
 }

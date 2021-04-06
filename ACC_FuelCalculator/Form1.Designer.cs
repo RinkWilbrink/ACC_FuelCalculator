@@ -72,12 +72,33 @@ namespace ACC_FuelCalculator
             this.NumberField_AvgFuelUsage.BackColor = System.Drawing.SystemColors.Window;
             resources.ApplyResources(this.NumberField_AvgFuelUsage, "NumberField_AvgFuelUsage");
             this.NumberField_AvgFuelUsage.Name = "NumberField_AvgFuelUsage";
+            this.NumberField_AvgFuelUsage.Enter += new System.EventHandler(this.NumberField_AvgFuelUsage_Enter);
+            this.NumberField_AvgFuelUsage.MouseDown += new System.Windows.Forms.MouseEventHandler(this.NumberField_AvgFuelUsage_MouseDown);
             // 
             // NumberField_LapTimeMinutes
             // 
             this.NumberField_LapTimeMinutes.BackColor = System.Drawing.SystemColors.Window;
             resources.ApplyResources(this.NumberField_LapTimeMinutes, "NumberField_LapTimeMinutes");
             this.NumberField_LapTimeMinutes.Name = "NumberField_LapTimeMinutes";
+            this.NumberField_LapTimeMinutes.Enter += new System.EventHandler(this.NumberField_AvgFuelUsage_Enter);
+            this.NumberField_LapTimeMinutes.MouseDown += new System.Windows.Forms.MouseEventHandler(this.NumberField_AvgFuelUsage_MouseDown);
+            // 
+            // NumberField_LapTimeSeconds
+            // 
+            this.NumberField_LapTimeSeconds.BackColor = System.Drawing.SystemColors.Window;
+            resources.ApplyResources(this.NumberField_LapTimeSeconds, "NumberField_LapTimeSeconds");
+            this.NumberField_LapTimeSeconds.Name = "NumberField_LapTimeSeconds";
+            this.NumberField_LapTimeSeconds.Enter += new System.EventHandler(this.NumberField_AvgFuelUsage_Enter);
+            this.NumberField_LapTimeSeconds.MouseDown += new System.Windows.Forms.MouseEventHandler(this.NumberField_AvgFuelUsage_MouseDown);
+            // 
+            // NumberField_RaceLengthInMinutes
+            // 
+            this.NumberField_RaceLengthInMinutes.BackColor = System.Drawing.SystemColors.Window;
+            resources.ApplyResources(this.NumberField_RaceLengthInMinutes, "NumberField_RaceLengthInMinutes");
+            this.NumberField_RaceLengthInMinutes.Name = "NumberField_RaceLengthInMinutes";
+            this.NumberField_RaceLengthInMinutes.Enter += new System.EventHandler(this.NumberField_AvgFuelUsage_Enter);
+            this.NumberField_RaceLengthInMinutes.MouseDown += new System.Windows.Forms.MouseEventHandler(this.NumberField_AvgFuelUsage_MouseDown);
+
             // 
             // label_LapTimeHeader
             // 
@@ -94,18 +115,6 @@ namespace ACC_FuelCalculator
             // 
             resources.ApplyResources(this.Label_LapTimeSeconds, "Label_LapTimeSeconds");
             this.Label_LapTimeSeconds.Name = "Label_LapTimeSeconds";
-            // 
-            // NumberField_LapTimeSeconds
-            // 
-            this.NumberField_LapTimeSeconds.BackColor = System.Drawing.SystemColors.Window;
-            resources.ApplyResources(this.NumberField_LapTimeSeconds, "NumberField_LapTimeSeconds");
-            this.NumberField_LapTimeSeconds.Name = "NumberField_LapTimeSeconds";
-            // 
-            // NumberField_RaceLengthInMinutes
-            // 
-            this.NumberField_RaceLengthInMinutes.BackColor = System.Drawing.SystemColors.Window;
-            resources.ApplyResources(this.NumberField_RaceLengthInMinutes, "NumberField_RaceLengthInMinutes");
-            this.NumberField_RaceLengthInMinutes.Name = "NumberField_RaceLengthInMinutes";
             // 
             // Label_RaceLengthHeader
             // 
