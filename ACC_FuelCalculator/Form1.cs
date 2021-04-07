@@ -85,6 +85,8 @@ namespace ACC_FuelCalculator
             NumberField_LapTimeSeconds.Maximum = 59;
             NumberField_LapTimeMinutes.Maximum = 2;
 
+            NumberField_RaceLengthInMinutes.Maximum = 1200;
+
             listBox_CarSelector.SelectedIndex = 0;
         }
 
@@ -117,6 +119,7 @@ namespace ACC_FuelCalculator
 
             int banaan = (int)Math.Round((temp / FuelPerLap) - 0.5f, 0);
 
+            /*
             if(banaan > LapCount)
             {
                 label_PitstopsNeededValue.Text = string.Format("1");
@@ -126,6 +129,9 @@ namespace ACC_FuelCalculator
                 label_PitstopsNeededValue.Text = string.Format("0");
             }
             //label_PitstopsNeededValue.Text= string.Format("{0}", banaan);
+            */
+
+            label_PitstopsNeededValue.Text = string.Format("{0}", Math.Round(((float)LapCount / (float)banaan) - 0.5f, 0));
         }
 
         #endregion
