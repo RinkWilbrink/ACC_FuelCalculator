@@ -85,7 +85,7 @@ namespace ACC_FuelCalculator
             NumberField_LapTimeSeconds.Maximum = 59;
             NumberField_LapTimeMinutes.Maximum = 2;
 
-            NumberField_RaceLengthInMinutes.Maximum = 1200;
+            NumberField_RaceLengthInMinutes.Maximum = 9999;
 
             listBox_CarSelector.SelectedIndex = 0;
         }
@@ -94,7 +94,7 @@ namespace ACC_FuelCalculator
 
         private void CalculateFuelButton_Click(object sender, EventArgs e)
         {
-            Label_FuelUsageHeader.Text = NumberField_AvgFuelUsage.Value.ToString();
+            //Label_FuelUsageHeader.Text = NumberField_AvgFuelUsage.Value.ToString();
 
             float FuelPerLap = (float)NumberField_AvgFuelUsage.Value;
             float RaceLenghtToSeconds = (float)NumberField_RaceLengthInMinutes.Value * 60;
@@ -119,18 +119,6 @@ namespace ACC_FuelCalculator
 
             int banaan = (int)Math.Round((temp / FuelPerLap) - 0.5f, 0);
 
-            /*
-            if(banaan > LapCount)
-            {
-                label_PitstopsNeededValue.Text = string.Format("1");
-            }
-            else
-            {
-                label_PitstopsNeededValue.Text = string.Format("0");
-            }
-            //label_PitstopsNeededValue.Text= string.Format("{0}", banaan);
-            */
-
             label_PitstopsNeededValue.Text = string.Format("{0}", Math.Round(((float)LapCount / (float)banaan) - 0.5f, 0));
         }
 
@@ -141,6 +129,17 @@ namespace ACC_FuelCalculator
             //label_SelectedCar.Text = string.Format("{0}", listBox_CarSelector.SelectedIndex);
 
             carSelected = (CarSelection)listBox_CarSelector.SelectedIndex;
+
+            if(NumberField_AvgFuelUsage.Value > 0)
+            {
+                if (NumberField_LapTimeMinutes.Value > 0 || NumberField_LapTimeSeconds.Value > 0)
+                {
+                    if(NumberField_RaceLengthInMinutes.Value > 0)
+                    {
+                        CalculateFuelButton.PerformClick();
+                    }
+                }
+            }
         }
 
 
