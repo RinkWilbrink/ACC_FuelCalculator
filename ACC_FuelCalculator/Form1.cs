@@ -79,18 +79,16 @@ namespace ACC_FuelCalculator
         // on Load / Start Functions
         private void Form1_Load(object sender, EventArgs e)
         {
-            NumberField_AvgFuelUsage.DecimalPlaces = 1;
-            NumberField_AvgFuelUsage.Increment = 0.1M;
+            NumberField_AvgFuelUsage.DecimalPlaces = 2;
+            NumberField_AvgFuelUsage.Increment = 0.01M;
 
             NumberField_LapTimeSeconds.Maximum = 59;
-            NumberField_LapTimeMinutes.Maximum = 2;
+            NumberField_LapTimeMinutes.Maximum = 5;
 
             NumberField_RaceLengthInMinutes.Maximum = 9999;
 
             listBox_CarSelector.SelectedIndex = 0;
         }
-
-        // ---------------------------------------------------------------
 
         private void CalculateFuelButton_Click(object sender, EventArgs e)
         {
@@ -100,10 +98,6 @@ namespace ACC_FuelCalculator
 
             CalculateFuel(FuelPerLap, RaceLenghtToSeconds, laptimeInSeconds);
         }
-
-        // ---------------------------------------------------------------
-
-        #region Custom Methods and Functions
 
         private void CalculateFuel(float FuelPerLap, float RaceLengthInSeconds, float AvgLapTimeSec)
         {
@@ -117,8 +111,6 @@ namespace ACC_FuelCalculator
 
             label_PitstopsNeededValue.Text = string.Format("{0}", Math.Round(((float)LapCount / (float)refuelCount) - 0.5f, 0));
         }
-
-        #endregion
 
         private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
@@ -136,38 +128,6 @@ namespace ACC_FuelCalculator
             }
         }
 
-
-        /* 
-         * Info
-         * https://stackoverflow.com/questions/571074/how-to-select-all-text-in-winforms-numericupdown-upon-tab-in
-        */
-
-        #region Select All NumericUpDown
-
-        bool AvgFuelUsage_selectByMouse = false; 
-        private void NumberField_AvgFuelUsage_Enter(object sender, EventArgs e)
-        {
-            NumericUpDown curBox = sender as NumericUpDown;
-            curBox.Select();
-            curBox.Select(0, curBox.Text.Length);
-            if (MouseButtons == MouseButtons.Left)
-            {
-                AvgFuelUsage_selectByMouse = true;
-            }
-        }
-        private void NumberField_AvgFuelUsage_MouseDown(object sender, MouseEventArgs e)
-        {
-            NumericUpDown curBox = sender as NumericUpDown;
-            if (AvgFuelUsage_selectByMouse)
-            {
-                curBox.Select(0, curBox.Text.Length);
-                AvgFuelUsage_selectByMouse = false;
-            }
-        }
-
-        //--------------------------------------------------
-
-        /*
         bool AvgFuelUsage_selectByMouse = false;
         private void NumberField_AvgFuelUsage_Enter(object sender, EventArgs e)
         {
@@ -179,6 +139,7 @@ namespace ACC_FuelCalculator
                 AvgFuelUsage_selectByMouse = true;
             }
         }
+
         private void NumberField_AvgFuelUsage_MouseDown(object sender, MouseEventArgs e)
         {
             NumericUpDown curBox = sender as NumericUpDown;
@@ -187,8 +148,6 @@ namespace ACC_FuelCalculator
                 curBox.Select(0, curBox.Text.Length);
                 AvgFuelUsage_selectByMouse = false;
             }
-        }*/
-
-        #endregion
+        }
     }
 }
