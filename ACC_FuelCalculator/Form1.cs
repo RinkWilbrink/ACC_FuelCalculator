@@ -94,8 +94,6 @@ namespace ACC_FuelCalculator
 
         private void CalculateFuelButton_Click(object sender, EventArgs e)
         {
-            //Label_FuelUsageHeader.Text = NumberField_AvgFuelUsage.Value.ToString();
-
             float FuelPerLap = (float)NumberField_AvgFuelUsage.Value;
             float RaceLenghtToSeconds = (float)NumberField_RaceLengthInMinutes.Value * 60;
             float laptimeInSeconds = ((float)NumberField_LapTimeMinutes.Value * 60) + (float)NumberField_LapTimeSeconds.Value;
@@ -115,19 +113,15 @@ namespace ACC_FuelCalculator
             int LitersNecesairyForRace = (int)Math.Round((LapCount * FuelPerLap) + 0.5f, 0);
             label_FuelNeededValue.Text = string.Format("{0}", LitersNecesairyForRace);
 
-            float temp = carFuelLoadsArray[listBox_CarSelector.SelectedIndex];
+            int refuelCount = (int)Math.Round(( (float)carFuelLoadsArray[listBox_CarSelector.SelectedIndex] / (float)FuelPerLap) - 0.5f, 0);
 
-            int banaan = (int)Math.Round((temp / FuelPerLap) - 0.5f, 0);
-
-            label_PitstopsNeededValue.Text = string.Format("{0}", Math.Round(((float)LapCount / (float)banaan) - 0.5f, 0));
+            label_PitstopsNeededValue.Text = string.Format("{0}", Math.Round(((float)LapCount / (float)refuelCount) - 0.5f, 0));
         }
 
         #endregion
 
         private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
-            //label_SelectedCar.Text = string.Format("{0}", listBox_CarSelector.SelectedIndex);
-
             carSelected = (CarSelection)listBox_CarSelector.SelectedIndex;
 
             if(NumberField_AvgFuelUsage.Value > 0)
@@ -150,7 +144,7 @@ namespace ACC_FuelCalculator
 
         #region Select All NumericUpDown
 
-        bool AvgFuelUsage_selectByMouse = false;
+        bool AvgFuelUsage_selectByMouse = false; 
         private void NumberField_AvgFuelUsage_Enter(object sender, EventArgs e)
         {
             NumericUpDown curBox = sender as NumericUpDown;
