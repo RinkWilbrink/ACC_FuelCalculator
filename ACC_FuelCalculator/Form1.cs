@@ -107,11 +107,9 @@ namespace ACC_FuelCalculator
             int LitersNecesairyForRace = (int)Math.Round((LapCount * FuelPerLap) + 0.5f, 0);
             label_FuelNeededValue.Text = string.Format("{0}", LitersNecesairyForRace);
 
-            float temp = carFuelLoadsArray[listBox_CarSelector.SelectedIndex];
+            int refuelCount = (int)Math.Round(( (float)carFuelLoadsArray[listBox_CarSelector.SelectedIndex] / (float)FuelPerLap) - 0.5f, 0);
 
-            int banaan = (int)Math.Round((temp / FuelPerLap) - 0.5f, 0);
-
-            label_PitstopsNeededValue.Text = string.Format("{0}", Math.Round(((float)LapCount / (float)banaan) - 0.5f, 0));
+            label_PitstopsNeededValue.Text = string.Format("{0}", Math.Round(((float)LapCount / (float)refuelCount) - 0.5f, 0));
         }
 
         private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
