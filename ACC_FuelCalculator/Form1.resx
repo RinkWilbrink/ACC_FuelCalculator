@@ -117,86 +117,134 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="CalculateFuelButton.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 12pt</value>
-  </data>
-  <data name="CalculateFuelButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>16, 282</value>
-  </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="CalculateFuelButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
+  <data name="Button_CalculateFuel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
   </data>
-  <data name="CalculateFuelButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>184, 57</value>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="Button_CalculateFuel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 16pt</value>
+  </data>
+  <data name="Button_CalculateFuel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>277, 311</value>
+  </data>
+  <data name="Button_CalculateFuel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>145, 98</value>
   </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="CalculateFuelButton.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
+  <data name="Button_CalculateFuel.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
   </data>
-  <data name="CalculateFuelButton.Text" xml:space="preserve">
+  <data name="Button_CalculateFuel.Text" xml:space="preserve">
     <value>Calculate Fuel</value>
   </data>
-  <data name="&gt;&gt;CalculateFuelButton.Name" xml:space="preserve">
-    <value>CalculateFuelButton</value>
+  <data name="&gt;&gt;Button_CalculateFuel.Name" xml:space="preserve">
+    <value>Button_CalculateFuel</value>
   </data>
-  <data name="&gt;&gt;CalculateFuelButton.Type" xml:space="preserve">
+  <data name="&gt;&gt;Button_CalculateFuel.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;CalculateFuelButton.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="&gt;&gt;Button_CalculateFuel.Parent" xml:space="preserve">
+    <value>panel1</value>
   </data>
-  <data name="&gt;&gt;CalculateFuelButton.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;Button_CalculateFuel.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="NumberField_TotalFuelSize.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 10pt</value>
+  </data>
+  <data name="NumberField_TotalFuelSize.Location" type="System.Drawing.Point, System.Drawing">
+    <value>190, 45</value>
+  </data>
+  <data name="NumberField_TotalFuelSize.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="NumberField_TotalFuelSize.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 26</value>
+  </data>
+  <data name="NumberField_TotalFuelSize.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;NumberField_TotalFuelSize.Name" xml:space="preserve">
+    <value>NumberField_TotalFuelSize</value>
+  </data>
+  <data name="&gt;&gt;NumberField_TotalFuelSize.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NumberField_TotalFuelSize.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;NumberField_TotalFuelSize.ZOrder" xml:space="preserve">
     <value>17</value>
   </data>
-  <data name="Label_FuelUsageHeader.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="NumberField_RaceLengthInMinutes.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 10pt</value>
   </data>
-  <data name="Label_FuelUsageHeader.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 12pt</value>
+  <data name="NumberField_RaceLengthInMinutes.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 125</value>
   </data>
-  <data name="Label_FuelUsageHeader.Location" type="System.Drawing.Point, System.Drawing">
-    <value>16, 11</value>
+  <data name="NumberField_RaceLengthInMinutes.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
-  <data name="Label_FuelUsageHeader.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 0, 4, 0</value>
+  <data name="NumberField_RaceLengthInMinutes.Size" type="System.Drawing.Size, System.Drawing">
+    <value>141, 26</value>
   </data>
-  <data name="Label_FuelUsageHeader.Size" type="System.Drawing.Size, System.Drawing">
-    <value>160, 25</value>
+  <data name="NumberField_RaceLengthInMinutes.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
   </data>
-  <data name="Label_FuelUsageHeader.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
+  <data name="&gt;&gt;NumberField_RaceLengthInMinutes.Name" xml:space="preserve">
+    <value>NumberField_RaceLengthInMinutes</value>
   </data>
-  <data name="Label_FuelUsageHeader.Text" xml:space="preserve">
-    <value>AVG Fuel Usage</value>
+  <data name="&gt;&gt;NumberField_RaceLengthInMinutes.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;Label_FuelUsageHeader.Name" xml:space="preserve">
-    <value>Label_FuelUsageHeader</value>
+  <data name="&gt;&gt;NumberField_RaceLengthInMinutes.Parent" xml:space="preserve">
+    <value>panel1</value>
   </data>
-  <data name="&gt;&gt;Label_FuelUsageHeader.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;Label_FuelUsageHeader.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;Label_FuelUsageHeader.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;NumberField_RaceLengthInMinutes.ZOrder" xml:space="preserve">
     <value>16</value>
+  </data>
+  <data name="NumberField_LapTimeSeconds.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 10pt</value>
+  </data>
+  <data name="NumberField_LapTimeSeconds.Location" type="System.Drawing.Point, System.Drawing">
+    <value>165, 210</value>
+  </data>
+  <data name="NumberField_LapTimeSeconds.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="NumberField_LapTimeSeconds.Size" type="System.Drawing.Size, System.Drawing">
+    <value>93, 26</value>
+  </data>
+  <data name="NumberField_LapTimeSeconds.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;NumberField_LapTimeSeconds.Name" xml:space="preserve">
+    <value>NumberField_LapTimeSeconds</value>
+  </data>
+  <data name="&gt;&gt;NumberField_LapTimeSeconds.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NumberField_LapTimeSeconds.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;NumberField_LapTimeSeconds.ZOrder" xml:space="preserve">
+    <value>15</value>
   </data>
   <data name="NumberField_AvgFuelUsage.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 10pt</value>
   </data>
   <data name="NumberField_AvgFuelUsage.Location" type="System.Drawing.Point, System.Drawing">
-    <value>16, 47</value>
+    <value>13, 45</value>
   </data>
   <data name="NumberField_AvgFuelUsage.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 4, 4, 4</value>
   </data>
   <data name="NumberField_AvgFuelUsage.Size" type="System.Drawing.Size, System.Drawing">
-    <value>133, 26</value>
+    <value>100, 26</value>
   </data>
   <data name="NumberField_AvgFuelUsage.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
+    <value>1</value>
   </data>
   <data name="&gt;&gt;NumberField_AvgFuelUsage.Name" xml:space="preserve">
     <value>NumberField_AvgFuelUsage</value>
@@ -205,16 +253,16 @@
     <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;NumberField_AvgFuelUsage.Parent" xml:space="preserve">
-    <value>$this</value>
+    <value>panel1</value>
   </data>
   <data name="&gt;&gt;NumberField_AvgFuelUsage.ZOrder" xml:space="preserve">
-    <value>15</value>
+    <value>13</value>
   </data>
   <data name="NumberField_LapTimeMinutes.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 10pt</value>
   </data>
   <data name="NumberField_LapTimeMinutes.Location" type="System.Drawing.Point, System.Drawing">
-    <value>21, 134</value>
+    <value>10, 210</value>
   </data>
   <data name="NumberField_LapTimeMinutes.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 4, 4, 4</value>
@@ -232,85 +280,265 @@
     <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;NumberField_LapTimeMinutes.Parent" xml:space="preserve">
-    <value>$this</value>
+    <value>panel1</value>
   </data>
   <data name="&gt;&gt;NumberField_LapTimeMinutes.ZOrder" xml:space="preserve">
     <value>14</value>
   </data>
-  <data name="label_LapTimeHeader.AutoSize" type="System.Boolean, mscorlib">
+  <data name="Label_MaxFuelCap.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="label_LapTimeHeader.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 12pt</value>
-  </data>
-  <data name="label_LapTimeHeader.Location" type="System.Drawing.Point, System.Drawing">
-    <value>19, 96</value>
-  </data>
-  <data name="label_LapTimeHeader.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 0, 4, 0</value>
-  </data>
-  <data name="label_LapTimeHeader.Size" type="System.Drawing.Size, System.Drawing">
-    <value>94, 25</value>
-  </data>
-  <data name="label_LapTimeHeader.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="label_LapTimeHeader.Text" xml:space="preserve">
-    <value>Lap Time</value>
-  </data>
-  <data name="&gt;&gt;label_LapTimeHeader.Name" xml:space="preserve">
-    <value>label_LapTimeHeader</value>
-  </data>
-  <data name="&gt;&gt;label_LapTimeHeader.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label_LapTimeHeader.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;label_LapTimeHeader.ZOrder" xml:space="preserve">
-    <value>13</value>
-  </data>
-  <data name="Label_LapTimeMinutes.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="Label_LapTimeMinutes.Font" type="System.Drawing.Font, System.Drawing">
+  <data name="Label_MaxFuelCap.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 10pt</value>
   </data>
-  <data name="Label_LapTimeMinutes.Location" type="System.Drawing.Point, System.Drawing">
-    <value>123, 137</value>
+  <data name="Label_MaxFuelCap.Location" type="System.Drawing.Point, System.Drawing">
+    <value>275, 47</value>
   </data>
-  <data name="Label_LapTimeMinutes.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 0, 4, 0</value>
+  <data name="Label_MaxFuelCap.Size" type="System.Drawing.Size, System.Drawing">
+    <value>134, 20</value>
   </data>
-  <data name="Label_LapTimeMinutes.Size" type="System.Drawing.Size, System.Drawing">
-    <value>36, 20</value>
+  <data name="Label_MaxFuelCap.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
   </data>
-  <data name="Label_LapTimeMinutes.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
+  <data name="Label_MaxFuelCap.Text" xml:space="preserve">
+    <value>L Max Fuel Load</value>
   </data>
-  <data name="Label_LapTimeMinutes.Text" xml:space="preserve">
-    <value>Min</value>
+  <data name="&gt;&gt;Label_MaxFuelCap.Name" xml:space="preserve">
+    <value>Label_MaxFuelCap</value>
   </data>
-  <data name="&gt;&gt;Label_LapTimeMinutes.Name" xml:space="preserve">
-    <value>Label_LapTimeMinutes</value>
-  </data>
-  <data name="&gt;&gt;Label_LapTimeMinutes.Type" xml:space="preserve">
+  <data name="&gt;&gt;Label_MaxFuelCap.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;Label_LapTimeMinutes.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="&gt;&gt;Label_MaxFuelCap.Parent" xml:space="preserve">
+    <value>panel1</value>
   </data>
-  <data name="&gt;&gt;Label_LapTimeMinutes.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;Label_MaxFuelCap.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Label_LapsValue.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="Label_LapsValue.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15pt</value>
+  </data>
+  <data name="Label_LapsValue.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Label_LapsValue.Location" type="System.Drawing.Point, System.Drawing">
+    <value>185, 310</value>
+  </data>
+  <data name="Label_LapsValue.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="Label_LapsValue.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 29</value>
+  </data>
+  <data name="Label_LapsValue.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="Label_LapsValue.Text" xml:space="preserve">
+    <value>000</value>
+  </data>
+  <data name="&gt;&gt;Label_LapsValue.Name" xml:space="preserve">
+    <value>Label_LapsValue</value>
+  </data>
+  <data name="&gt;&gt;Label_LapsValue.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label_LapsValue.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;Label_LapsValue.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="Label_PitstopsNeededValue.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="Label_PitstopsNeededValue.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15pt</value>
+  </data>
+  <data name="Label_PitstopsNeededValue.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Label_PitstopsNeededValue.Location" type="System.Drawing.Point, System.Drawing">
+    <value>185, 380</value>
+  </data>
+  <data name="Label_PitstopsNeededValue.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="Label_PitstopsNeededValue.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 29</value>
+  </data>
+  <data name="Label_PitstopsNeededValue.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="Label_PitstopsNeededValue.Text" xml:space="preserve">
+    <value>000</value>
+  </data>
+  <data name="&gt;&gt;Label_PitstopsNeededValue.Name" xml:space="preserve">
+    <value>Label_PitstopsNeededValue</value>
+  </data>
+  <data name="&gt;&gt;Label_PitstopsNeededValue.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label_PitstopsNeededValue.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;Label_PitstopsNeededValue.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="Label_FuelNeededValue.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="Label_FuelNeededValue.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15pt</value>
+  </data>
+  <data name="Label_FuelNeededValue.Location" type="System.Drawing.Point, System.Drawing">
+    <value>185, 345</value>
+  </data>
+  <data name="Label_FuelNeededValue.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="Label_FuelNeededValue.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 29</value>
+  </data>
+  <data name="Label_FuelNeededValue.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="Label_FuelNeededValue.Text" xml:space="preserve">
+    <value>000</value>
+  </data>
+  <data name="&gt;&gt;Label_FuelNeededValue.Name" xml:space="preserve">
+    <value>Label_FuelNeededValue</value>
+  </data>
+  <data name="&gt;&gt;Label_FuelNeededValue.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label_FuelNeededValue.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;Label_FuelNeededValue.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="Label_LapsHeader.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="Label_LapsHeader.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="Label_LapsHeader.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Label_LapsHeader.Location" type="System.Drawing.Point, System.Drawing">
+    <value>116, 312</value>
+  </data>
+  <data name="Label_LapsHeader.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="Label_LapsHeader.Size" type="System.Drawing.Size, System.Drawing">
+    <value>61, 25</value>
+  </data>
+  <data name="Label_LapsHeader.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="Label_LapsHeader.Text" xml:space="preserve">
+    <value>Laps:</value>
+  </data>
+  <data name="Label_LapsHeader.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;Label_LapsHeader.Name" xml:space="preserve">
+    <value>Label_LapsHeader</value>
+  </data>
+  <data name="&gt;&gt;Label_LapsHeader.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label_LapsHeader.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;Label_LapsHeader.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="Label_PitstopHeader.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="Label_PitstopHeader.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="Label_PitstopHeader.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Label_PitstopHeader.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 383</value>
+  </data>
+  <data name="Label_PitstopHeader.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="Label_PitstopHeader.Size" type="System.Drawing.Size, System.Drawing">
+    <value>157, 25</value>
+  </data>
+  <data name="Label_PitstopHeader.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="Label_PitstopHeader.Text" xml:space="preserve">
+    <value>Refuels Needed:</value>
+  </data>
+  <data name="Label_PitstopHeader.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;Label_PitstopHeader.Name" xml:space="preserve">
+    <value>Label_PitstopHeader</value>
+  </data>
+  <data name="&gt;&gt;Label_PitstopHeader.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label_PitstopHeader.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;Label_PitstopHeader.ZOrder" xml:space="preserve">
     <value>11</value>
   </data>
-  <data name="Label_LapTimeSeconds.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="Label_FuelNeededHeader.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="Label_FuelNeededHeader.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="Label_FuelNeededHeader.Location" type="System.Drawing.Point, System.Drawing">
+    <value>47, 347</value>
+  </data>
+  <data name="Label_FuelNeededHeader.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="Label_FuelNeededHeader.Size" type="System.Drawing.Size, System.Drawing">
+    <value>130, 25</value>
+  </data>
+  <data name="Label_FuelNeededHeader.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="Label_FuelNeededHeader.Text" xml:space="preserve">
+    <value>Fuel Needed:</value>
+  </data>
+  <data name="Label_FuelNeededHeader.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;Label_FuelNeededHeader.Name" xml:space="preserve">
+    <value>Label_FuelNeededHeader</value>
+  </data>
+  <data name="&gt;&gt;Label_FuelNeededHeader.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label_FuelNeededHeader.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;Label_FuelNeededHeader.ZOrder" xml:space="preserve">
+    <value>7</value>
   </data>
   <data name="Label_LapTimeSeconds.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 10pt</value>
   </data>
   <data name="Label_LapTimeSeconds.Location" type="System.Drawing.Point, System.Drawing">
-    <value>300, 137</value>
+    <value>270, 212</value>
   </data>
   <data name="Label_LapTimeSeconds.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 0, 4, 0</value>
@@ -319,7 +547,7 @@
     <value>38, 20</value>
   </data>
   <data name="Label_LapTimeSeconds.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
+    <value>0</value>
   </data>
   <data name="Label_LapTimeSeconds.Text" xml:space="preserve">
     <value>Sec</value>
@@ -331,97 +559,10 @@
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;Label_LapTimeSeconds.Parent" xml:space="preserve">
-    <value>$this</value>
+    <value>panel1</value>
   </data>
   <data name="&gt;&gt;Label_LapTimeSeconds.ZOrder" xml:space="preserve">
-    <value>9</value>
-  </data>
-  <data name="NumberField_LapTimeSeconds.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 10pt</value>
-  </data>
-  <data name="NumberField_LapTimeSeconds.Location" type="System.Drawing.Point, System.Drawing">
-    <value>199, 134</value>
-  </data>
-  <data name="NumberField_LapTimeSeconds.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
-  </data>
-  <data name="NumberField_LapTimeSeconds.Size" type="System.Drawing.Size, System.Drawing">
-    <value>93, 26</value>
-  </data>
-  <data name="NumberField_LapTimeSeconds.TabIndex" type="System.Int32, mscorlib">
-    <value>8</value>
-  </data>
-  <data name="&gt;&gt;NumberField_LapTimeSeconds.Name" xml:space="preserve">
-    <value>NumberField_LapTimeSeconds</value>
-  </data>
-  <data name="&gt;&gt;NumberField_LapTimeSeconds.Type" xml:space="preserve">
-    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;NumberField_LapTimeSeconds.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;NumberField_LapTimeSeconds.ZOrder" xml:space="preserve">
-    <value>8</value>
-  </data>
-  <data name="NumberField_RaceLengthInMinutes.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 10pt</value>
-  </data>
-  <data name="NumberField_RaceLengthInMinutes.Location" type="System.Drawing.Point, System.Drawing">
-    <value>21, 226</value>
-  </data>
-  <data name="NumberField_RaceLengthInMinutes.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
-  </data>
-  <data name="NumberField_RaceLengthInMinutes.Size" type="System.Drawing.Size, System.Drawing">
-    <value>141, 26</value>
-  </data>
-  <data name="NumberField_RaceLengthInMinutes.TabIndex" type="System.Int32, mscorlib">
-    <value>9</value>
-  </data>
-  <data name="&gt;&gt;NumberField_RaceLengthInMinutes.Name" xml:space="preserve">
-    <value>NumberField_RaceLengthInMinutes</value>
-  </data>
-  <data name="&gt;&gt;NumberField_RaceLengthInMinutes.Type" xml:space="preserve">
-    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;NumberField_RaceLengthInMinutes.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;NumberField_RaceLengthInMinutes.ZOrder" xml:space="preserve">
-    <value>7</value>
-  </data>
-  <data name="Label_RaceLengthHeader.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="Label_RaceLengthHeader.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 12pt</value>
-  </data>
-  <data name="Label_RaceLengthHeader.Location" type="System.Drawing.Point, System.Drawing">
-    <value>16, 198</value>
-  </data>
-  <data name="Label_RaceLengthHeader.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 0, 4, 0</value>
-  </data>
-  <data name="Label_RaceLengthHeader.Size" type="System.Drawing.Size, System.Drawing">
-    <value>216, 25</value>
-  </data>
-  <data name="Label_RaceLengthHeader.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="Label_RaceLengthHeader.Text" xml:space="preserve">
-    <value>Race Length in Minutes</value>
-  </data>
-  <data name="&gt;&gt;Label_RaceLengthHeader.Name" xml:space="preserve">
-    <value>Label_RaceLengthHeader</value>
-  </data>
-  <data name="&gt;&gt;Label_RaceLengthHeader.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;Label_RaceLengthHeader.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;Label_RaceLengthHeader.ZOrder" xml:space="preserve">
-    <value>12</value>
+    <value>4</value>
   </data>
   <data name="Label_FuelUsageInLiters.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -430,7 +571,7 @@
     <value>Microsoft Sans Serif, 10pt</value>
   </data>
   <data name="Label_FuelUsageInLiters.Location" type="System.Drawing.Point, System.Drawing">
-    <value>160, 49</value>
+    <value>121, 47</value>
   </data>
   <data name="Label_FuelUsageInLiters.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 0, 4, 0</value>
@@ -439,7 +580,7 @@
     <value>52, 20</value>
   </data>
   <data name="Label_FuelUsageInLiters.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
+    <value>0</value>
   </data>
   <data name="Label_FuelUsageInLiters.Text" xml:space="preserve">
     <value>Liters</value>
@@ -451,346 +592,166 @@
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;Label_FuelUsageInLiters.Parent" xml:space="preserve">
-    <value>$this</value>
+    <value>panel1</value>
   </data>
   <data name="&gt;&gt;Label_FuelUsageInLiters.ZOrder" xml:space="preserve">
-    <value>10</value>
-  </data>
-  <data name="label_FuelNeededHeader.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="label_FuelNeededHeader.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 12pt</value>
-  </data>
-  <data name="label_FuelNeededHeader.Location" type="System.Drawing.Point, System.Drawing">
-    <value>43, 421</value>
-  </data>
-  <data name="label_FuelNeededHeader.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 0, 4, 0</value>
-  </data>
-  <data name="label_FuelNeededHeader.Size" type="System.Drawing.Size, System.Drawing">
-    <value>130, 25</value>
-  </data>
-  <data name="label_FuelNeededHeader.TabIndex" type="System.Int32, mscorlib">
-    <value>10</value>
-  </data>
-  <data name="label_FuelNeededHeader.Text" xml:space="preserve">
-    <value>Fuel Needed:</value>
-  </data>
-  <data name="label_FuelNeededHeader.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleRight</value>
-  </data>
-  <data name="&gt;&gt;label_FuelNeededHeader.Name" xml:space="preserve">
-    <value>label_FuelNeededHeader</value>
-  </data>
-  <data name="&gt;&gt;label_FuelNeededHeader.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label_FuelNeededHeader.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;label_FuelNeededHeader.ZOrder" xml:space="preserve">
     <value>6</value>
   </data>
-  <data name="label_FuelNeededValue.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="Label_LapTimeMinutes.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 10pt</value>
   </data>
-  <data name="label_FuelNeededValue.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 15pt</value>
+  <data name="Label_LapTimeMinutes.Location" type="System.Drawing.Point, System.Drawing">
+    <value>115, 212</value>
   </data>
-  <data name="label_FuelNeededValue.Location" type="System.Drawing.Point, System.Drawing">
-    <value>192, 421</value>
-  </data>
-  <data name="label_FuelNeededValue.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+  <data name="Label_LapTimeMinutes.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 0, 4, 0</value>
   </data>
-  <data name="label_FuelNeededValue.Size" type="System.Drawing.Size, System.Drawing">
-    <value>55, 29</value>
+  <data name="Label_LapTimeMinutes.Size" type="System.Drawing.Size, System.Drawing">
+    <value>36, 20</value>
   </data>
-  <data name="label_FuelNeededValue.TabIndex" type="System.Int32, mscorlib">
-    <value>11</value>
+  <data name="Label_LapTimeMinutes.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
   </data>
-  <data name="label_FuelNeededValue.Text" xml:space="preserve">
-    <value>000</value>
+  <data name="Label_LapTimeMinutes.Text" xml:space="preserve">
+    <value>Min</value>
   </data>
-  <data name="&gt;&gt;label_FuelNeededValue.Name" xml:space="preserve">
-    <value>label_FuelNeededValue</value>
+  <data name="&gt;&gt;Label_LapTimeMinutes.Name" xml:space="preserve">
+    <value>Label_LapTimeMinutes</value>
   </data>
-  <data name="&gt;&gt;label_FuelNeededValue.Type" xml:space="preserve">
+  <data name="&gt;&gt;Label_LapTimeMinutes.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;label_FuelNeededValue.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="&gt;&gt;Label_LapTimeMinutes.Parent" xml:space="preserve">
+    <value>panel1</value>
   </data>
-  <data name="&gt;&gt;label_FuelNeededValue.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;Label_LapTimeMinutes.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
-  <data name="label_LapsHeader.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="label_LapsHeader.Font" type="System.Drawing.Font, System.Drawing">
+  <data name="Label_RaceLengthHeader.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 12pt</value>
   </data>
-  <data name="label_LapsHeader.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
+  <data name="Label_RaceLengthHeader.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 95</value>
   </data>
-  <data name="label_LapsHeader.Location" type="System.Drawing.Point, System.Drawing">
-    <value>117, 374</value>
-  </data>
-  <data name="label_LapsHeader.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+  <data name="Label_RaceLengthHeader.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 0, 4, 0</value>
   </data>
-  <data name="label_LapsHeader.Size" type="System.Drawing.Size, System.Drawing">
-    <value>61, 25</value>
+  <data name="Label_RaceLengthHeader.Size" type="System.Drawing.Size, System.Drawing">
+    <value>216, 25</value>
   </data>
-  <data name="label_LapsHeader.TabIndex" type="System.Int32, mscorlib">
-    <value>10</value>
+  <data name="Label_RaceLengthHeader.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
   </data>
-  <data name="label_LapsHeader.Text" xml:space="preserve">
-    <value>Laps:</value>
+  <data name="Label_RaceLengthHeader.Text" xml:space="preserve">
+    <value>Race Length in Minutes</value>
   </data>
-  <data name="label_LapsHeader.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleRight</value>
+  <data name="&gt;&gt;Label_RaceLengthHeader.Name" xml:space="preserve">
+    <value>Label_RaceLengthHeader</value>
   </data>
-  <data name="&gt;&gt;label_LapsHeader.Name" xml:space="preserve">
-    <value>label_LapsHeader</value>
-  </data>
-  <data name="&gt;&gt;label_LapsHeader.Type" xml:space="preserve">
+  <data name="&gt;&gt;Label_RaceLengthHeader.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;label_LapsHeader.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="&gt;&gt;Label_RaceLengthHeader.Parent" xml:space="preserve">
+    <value>panel1</value>
   </data>
-  <data name="&gt;&gt;label_LapsHeader.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="label_LapsValue.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="label_LapsValue.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 15pt</value>
-  </data>
-  <data name="label_LapsValue.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="label_LapsValue.Location" type="System.Drawing.Point, System.Drawing">
-    <value>192, 374</value>
-  </data>
-  <data name="label_LapsValue.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 0, 4, 0</value>
-  </data>
-  <data name="label_LapsValue.Size" type="System.Drawing.Size, System.Drawing">
-    <value>55, 29</value>
-  </data>
-  <data name="label_LapsValue.TabIndex" type="System.Int32, mscorlib">
-    <value>11</value>
-  </data>
-  <data name="label_LapsValue.Text" xml:space="preserve">
-    <value>000</value>
-  </data>
-  <data name="&gt;&gt;label_LapsValue.Name" xml:space="preserve">
-    <value>label_LapsValue</value>
-  </data>
-  <data name="&gt;&gt;label_LapsValue.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label_LapsValue.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;label_LapsValue.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="label_PitstopHeader.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="label_PitstopHeader.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 12pt</value>
-  </data>
-  <data name="label_PitstopHeader.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="label_PitstopHeader.Location" type="System.Drawing.Point, System.Drawing">
-    <value>11, 473</value>
-  </data>
-  <data name="label_PitstopHeader.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 0, 4, 0</value>
-  </data>
-  <data name="label_PitstopHeader.Size" type="System.Drawing.Size, System.Drawing">
-    <value>157, 25</value>
-  </data>
-  <data name="label_PitstopHeader.TabIndex" type="System.Int32, mscorlib">
-    <value>10</value>
-  </data>
-  <data name="label_PitstopHeader.Text" xml:space="preserve">
-    <value>Refuels Needed:</value>
-  </data>
-  <data name="label_PitstopHeader.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleRight</value>
-  </data>
-  <data name="&gt;&gt;label_PitstopHeader.Name" xml:space="preserve">
-    <value>label_PitstopHeader</value>
-  </data>
-  <data name="&gt;&gt;label_PitstopHeader.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label_PitstopHeader.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;label_PitstopHeader.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;Label_RaceLengthHeader.ZOrder" xml:space="preserve">
     <value>5</value>
   </data>
-  <data name="label_PitstopsNeededValue.AutoSize" type="System.Boolean, mscorlib">
+  <data name="Label_LapTimeHeader.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="label_PitstopsNeededValue.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 15pt</value>
+  <data name="Label_LapTimeHeader.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
   </data>
-  <data name="label_PitstopsNeededValue.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
+  <data name="Label_LapTimeHeader.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 175</value>
   </data>
-  <data name="label_PitstopsNeededValue.Location" type="System.Drawing.Point, System.Drawing">
-    <value>192, 471</value>
-  </data>
-  <data name="label_PitstopsNeededValue.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+  <data name="Label_LapTimeHeader.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 0, 4, 0</value>
   </data>
-  <data name="label_PitstopsNeededValue.Size" type="System.Drawing.Size, System.Drawing">
-    <value>55, 29</value>
+  <data name="Label_LapTimeHeader.Size" type="System.Drawing.Size, System.Drawing">
+    <value>94, 25</value>
   </data>
-  <data name="label_PitstopsNeededValue.TabIndex" type="System.Int32, mscorlib">
-    <value>11</value>
+  <data name="Label_LapTimeHeader.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
   </data>
-  <data name="label_PitstopsNeededValue.Text" xml:space="preserve">
-    <value>000</value>
+  <data name="Label_LapTimeHeader.Text" xml:space="preserve">
+    <value>Lap Time</value>
   </data>
-  <data name="&gt;&gt;label_PitstopsNeededValue.Name" xml:space="preserve">
-    <value>label_PitstopsNeededValue</value>
+  <data name="&gt;&gt;Label_LapTimeHeader.Name" xml:space="preserve">
+    <value>Label_LapTimeHeader</value>
   </data>
-  <data name="&gt;&gt;label_PitstopsNeededValue.Type" xml:space="preserve">
+  <data name="&gt;&gt;Label_LapTimeHeader.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;label_PitstopsNeededValue.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="&gt;&gt;Label_LapTimeHeader.Parent" xml:space="preserve">
+    <value>panel1</value>
   </data>
-  <data name="&gt;&gt;label_PitstopsNeededValue.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;Label_LapTimeHeader.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
-  <data name="listBox_CarSelector.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 9pt</value>
+  <data name="Label_FuelUsageHeader.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
-  <data name="listBox_CarSelector.ItemHeight" type="System.Int32, mscorlib">
-    <value>18</value>
+  <data name="Label_FuelUsageHeader.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
   </data>
-  <data name="listBox_CarSelector.Items" xml:space="preserve">
-    <value>Aston Martin V12 Vantage GT3 2013</value>
+  <data name="Label_FuelUsageHeader.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 10</value>
   </data>
-  <data name="listBox_CarSelector.Items1" xml:space="preserve">
-    <value>Aston Martin V8 Vantage GT3 2019</value>
+  <data name="Label_FuelUsageHeader.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
-  <data name="listBox_CarSelector.Items2" xml:space="preserve">
-    <value>Audi R8 LMS 2015</value>
+  <data name="Label_FuelUsageHeader.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 25</value>
   </data>
-  <data name="listBox_CarSelector.Items3" xml:space="preserve">
-    <value>Audi R8 LMS Evo 2019</value>
+  <data name="Label_FuelUsageHeader.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
   </data>
-  <data name="listBox_CarSelector.Items4" xml:space="preserve">
-    <value>Bentley Continental GT3 2015</value>
+  <data name="Label_FuelUsageHeader.Text" xml:space="preserve">
+    <value>AVG Fuel Usage</value>
   </data>
-  <data name="listBox_CarSelector.Items5" xml:space="preserve">
-    <value>Bentley Continental GT3 2018</value>
+  <data name="&gt;&gt;Label_FuelUsageHeader.Name" xml:space="preserve">
+    <value>Label_FuelUsageHeader</value>
   </data>
-  <data name="listBox_CarSelector.Items6" xml:space="preserve">
-    <value>BMW M6 GT3 2017</value>
+  <data name="&gt;&gt;Label_FuelUsageHeader.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="listBox_CarSelector.Items7" xml:space="preserve">
-    <value>Emil Frey Jaguar G3 2012</value>
+  <data name="&gt;&gt;Label_FuelUsageHeader.Parent" xml:space="preserve">
+    <value>panel1</value>
   </data>
-  <data name="listBox_CarSelector.Items8" xml:space="preserve">
-    <value>Ferrari 488 GT3 2018</value>
+  <data name="&gt;&gt;Label_FuelUsageHeader.ZOrder" xml:space="preserve">
+    <value>1</value>
   </data>
-  <data name="listBox_CarSelector.Items9" xml:space="preserve">
-    <value>Ferrari 488 GT3 Evo 2020</value>
+  <data name="panel1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
   </data>
-  <data name="listBox_CarSelector.Items10" xml:space="preserve">
-    <value>Honda NSX GT3 2017</value>
+  <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
   </data>
-  <data name="listBox_CarSelector.Items11" xml:space="preserve">
-    <value>Honda NSX GT3 Evo 2019</value>
+  <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>459, 425</value>
   </data>
-  <data name="listBox_CarSelector.Items12" xml:space="preserve">
-    <value>Lamborghini Huracan GT3 2015</value>
+  <data name="panel1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
   </data>
-  <data name="listBox_CarSelector.Items13" xml:space="preserve">
-    <value>Lamborghini Huracan GT3 Evo 2019</value>
+  <data name="&gt;&gt;panel1.Name" xml:space="preserve">
+    <value>panel1</value>
   </data>
-  <data name="listBox_CarSelector.Items14" xml:space="preserve">
-    <value>Lamborghini Huracan ST 2015</value>
+  <data name="&gt;&gt;panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="listBox_CarSelector.Items15" xml:space="preserve">
-    <value>Lexus RC F GT3 2016</value>
-  </data>
-  <data name="listBox_CarSelector.Items16" xml:space="preserve">
-    <value>McLaren 650S GT3 2015</value>
-  </data>
-  <data name="listBox_CarSelector.Items17" xml:space="preserve">
-    <value>McLaren 720S GT3 2019</value>
-  </data>
-  <data name="listBox_CarSelector.Items18" xml:space="preserve">
-    <value>Mercedes-AMG GT3 2015</value>
-  </data>
-  <data name="listBox_CarSelector.Items19" xml:space="preserve">
-    <value>Mercedes-AMG GT3 Evo 2020</value>
-  </data>
-  <data name="listBox_CarSelector.Items20" xml:space="preserve">
-    <value>Nissan GT-R Nismo GT3 2015</value>
-  </data>
-  <data name="listBox_CarSelector.Items21" xml:space="preserve">
-    <value>Nissan GT-R Nismo GT3 2018</value>
-  </data>
-  <data name="listBox_CarSelector.Items22" xml:space="preserve">
-    <value>Porsche 991 GT3 R 2018</value>
-  </data>
-  <data name="listBox_CarSelector.Items23" xml:space="preserve">
-    <value>Porsche 991 II GT3 Cup 2017</value>
-  </data>
-  <data name="listBox_CarSelector.Items24" xml:space="preserve">
-    <value>Porsche 991 II GT3 R 2019</value>
-  </data>
-  <data name="listBox_CarSelector.Items25" xml:space="preserve">
-    <value>Reiter Engineering R-EX GT3 2017</value>
-  </data>
-  <data name="listBox_CarSelector.Location" type="System.Drawing.Point, System.Drawing">
-    <value>351, 12</value>
-  </data>
-  <data name="listBox_CarSelector.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
-  </data>
-  <data name="listBox_CarSelector.Size" type="System.Drawing.Size, System.Drawing">
-    <value>281, 472</value>
-  </data>
-  <data name="listBox_CarSelector.TabIndex" type="System.Int32, mscorlib">
-    <value>13</value>
-  </data>
-  <data name="&gt;&gt;listBox_CarSelector.Name" xml:space="preserve">
-    <value>listBox_CarSelector</value>
-  </data>
-  <data name="&gt;&gt;listBox_CarSelector.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;listBox_CarSelector.Parent" xml:space="preserve">
+  <data name="&gt;&gt;panel1.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;listBox_CarSelector.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;panel1.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
-  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>8, 16</value>
-  </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>661, 528</value>
+    <value>459, 425</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>

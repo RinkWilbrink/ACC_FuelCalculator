@@ -10,3 +10,17 @@ E:\School and Work\repos\ACC_FuelCalculator\ACC_FuelCalculator\obj\Debug\ACC_Fue
 E:\School and Work\repos\ACC_FuelCalculator\ACC_FuelCalculator\obj\Debug\en-GB\FuelCalculator_ForAcc.resources.dll
 E:\School and Work\repos\ACC_FuelCalculator\ACC_FuelCalculator\obj\Debug\FuelCalculator_ForAcc.exe
 E:\School and Work\repos\ACC_FuelCalculator\ACC_FuelCalculator\obj\Debug\FuelCalculator_ForAcc.pdb
+C:\Users\rinkw\Documents\School and Work\repos\ACC_FuelCalculator\ACC_FuelCalculator\bin\Debug\FuelCalculator_ForAcc.exe.config
+C:\Users\rinkw\Documents\School and Work\repos\ACC_FuelCalculator\ACC_FuelCalculator\bin\Debug\FuelCalculator_ForAcc.exe
+C:\Users\rinkw\Documents\School and Work\repos\ACC_FuelCalculator\ACC_FuelCalculator\bin\Debug\FuelCalculator_ForAcc.pdb
+C:\Users\rinkw\Documents\School and Work\repos\ACC_FuelCalculator\ACC_FuelCalculator\bin\Debug\en-GB\FuelCalculator_ForAcc.resources.dll
+C:\Users\rinkw\Documents\School and Work\repos\ACC_FuelCalculator\ACC_FuelCalculator\obj\Debug\ACC_FuelCalculator.csproj.AssemblyReference.cache
+C:\Users\rinkw\Documents\School and Work\repos\ACC_FuelCalculator\ACC_FuelCalculator\obj\Debug\ACC_FuelCalculator.csproj.SuggestedBindingRedirects.cache
+C:\Users\rinkw\Documents\School and Work\repos\ACC_FuelCalculator\ACC_FuelCalculator\obj\Debug\ACC_FuelCalculator.ACC_FC_Window.resources
+C:\Users\rinkw\Documents\School and Work\repos\ACC_FuelCalculator\ACC_FuelCalculator\obj\Debug\ACC_FuelCalculator.Properties.Resources.resources
+C:\Users\rinkw\Documents\School and Work\repos\ACC_FuelCalculator\ACC_FuelCalculator\obj\Debug\ACC_FuelCalculator.ACC_FC_Window.en-GB.resources
+C:\Users\rinkw\Documents\School and Work\repos\ACC_FuelCalculator\ACC_FuelCalculator\obj\Debug\ACC_FuelCalculator.csproj.GenerateResource.cache
+C:\Users\rinkw\Documents\School and Work\repos\ACC_FuelCalculator\ACC_FuelCalculator\obj\Debug\ACC_FuelCalculator.csproj.CoreCompileInputs.cache
+C:\Users\rinkw\Documents\School and Work\repos\ACC_FuelCalculator\ACC_FuelCalculator\obj\Debug\en-GB\FuelCalculator_ForAcc.resources.dll
+C:\Users\rinkw\Documents\School and Work\repos\ACC_FuelCalculator\ACC_FuelCalculator\obj\Debug\FuelCalculator_ForAcc.exe
+C:\Users\rinkw\Documents\School and Work\repos\ACC_FuelCalculator\ACC_FuelCalculator\obj\Debug\FuelCalculator_ForAcc.pdb

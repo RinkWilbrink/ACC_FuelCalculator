@@ -30,42 +30,61 @@ namespace ACC_FuelCalculator
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ACC_FC_Window));
-            this.CalculateFuelButton = new System.Windows.Forms.Button();
-            this.Label_FuelUsageHeader = new System.Windows.Forms.Label();
+            this.Button_CalculateFuel = new System.Windows.Forms.Button();
+            this.NumberField_TotalFuelSize = new System.Windows.Forms.NumericUpDown();
+            this.NumberField_RaceLengthInMinutes = new System.Windows.Forms.NumericUpDown();
+            this.NumberField_LapTimeSeconds = new System.Windows.Forms.NumericUpDown();
             this.NumberField_AvgFuelUsage = new System.Windows.Forms.NumericUpDown();
             this.NumberField_LapTimeMinutes = new System.Windows.Forms.NumericUpDown();
-            this.label_LapTimeHeader = new System.Windows.Forms.Label();
-            this.Label_LapTimeMinutes = new System.Windows.Forms.Label();
+            this.Label_MaxFuelCap = new System.Windows.Forms.Label();
+            this.Label_LapsValue = new System.Windows.Forms.Label();
+            this.Label_PitstopsNeededValue = new System.Windows.Forms.Label();
+            this.Label_FuelNeededValue = new System.Windows.Forms.Label();
+            this.Label_LapsHeader = new System.Windows.Forms.Label();
+            this.Label_PitstopHeader = new System.Windows.Forms.Label();
+            this.Label_FuelNeededHeader = new System.Windows.Forms.Label();
             this.Label_LapTimeSeconds = new System.Windows.Forms.Label();
-            this.NumberField_LapTimeSeconds = new System.Windows.Forms.NumericUpDown();
-            this.NumberField_RaceLengthInMinutes = new System.Windows.Forms.NumericUpDown();
-            this.Label_RaceLengthHeader = new System.Windows.Forms.Label();
             this.Label_FuelUsageInLiters = new System.Windows.Forms.Label();
-            this.label_FuelNeededHeader = new System.Windows.Forms.Label();
-            this.label_FuelNeededValue = new System.Windows.Forms.Label();
-            this.label_LapsHeader = new System.Windows.Forms.Label();
-            this.label_LapsValue = new System.Windows.Forms.Label();
-            this.label_PitstopHeader = new System.Windows.Forms.Label();
-            this.label_PitstopsNeededValue = new System.Windows.Forms.Label();
-            this.listBox_CarSelector = new System.Windows.Forms.ListBox();
+            this.Label_LapTimeMinutes = new System.Windows.Forms.Label();
+            this.Label_RaceLengthHeader = new System.Windows.Forms.Label();
+            this.Label_LapTimeHeader = new System.Windows.Forms.Label();
+            this.Label_FuelUsageHeader = new System.Windows.Forms.Label();
+            this.panel1 = new System.Windows.Forms.Panel();
+            ((System.ComponentModel.ISupportInitialize)(this.NumberField_TotalFuelSize)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.NumberField_RaceLengthInMinutes)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.NumberField_LapTimeSeconds)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.NumberField_AvgFuelUsage)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.NumberField_LapTimeMinutes)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.NumberField_LapTimeSeconds)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.NumberField_RaceLengthInMinutes)).BeginInit();
+            this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
-            // CalculateFuelButton
+            // Button_CalculateFuel
             // 
-            resources.ApplyResources(this.CalculateFuelButton, "CalculateFuelButton");
-            this.CalculateFuelButton.Name = "CalculateFuelButton";
-            this.CalculateFuelButton.UseVisualStyleBackColor = true;
-            this.CalculateFuelButton.Click += new System.EventHandler(this.CalculateFuelButton_Click);
+            resources.ApplyResources(this.Button_CalculateFuel, "Button_CalculateFuel");
+            this.Button_CalculateFuel.Name = "Button_CalculateFuel";
+            this.Button_CalculateFuel.UseVisualStyleBackColor = true;
+            this.Button_CalculateFuel.Click += new System.EventHandler(this.CalculateFuelButton_Click);
             // 
-            // Label_FuelUsageHeader
+            // NumberField_TotalFuelSize
             // 
-            resources.ApplyResources(this.Label_FuelUsageHeader, "Label_FuelUsageHeader");
-            this.Label_FuelUsageHeader.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Label_FuelUsageHeader.Name = "Label_FuelUsageHeader";
+            resources.ApplyResources(this.NumberField_TotalFuelSize, "NumberField_TotalFuelSize");
+            this.NumberField_TotalFuelSize.Name = "NumberField_TotalFuelSize";
+            // 
+            // NumberField_RaceLengthInMinutes
+            // 
+            this.NumberField_RaceLengthInMinutes.BackColor = System.Drawing.SystemColors.Window;
+            resources.ApplyResources(this.NumberField_RaceLengthInMinutes, "NumberField_RaceLengthInMinutes");
+            this.NumberField_RaceLengthInMinutes.Name = "NumberField_RaceLengthInMinutes";
+            this.NumberField_RaceLengthInMinutes.Enter += new System.EventHandler(this.NumberField_AvgFuelUsage_Enter);
+            this.NumberField_RaceLengthInMinutes.MouseDown += new System.Windows.Forms.MouseEventHandler(this.NumberField_AvgFuelUsage_MouseDown);
+            // 
+            // NumberField_LapTimeSeconds
+            // 
+            this.NumberField_LapTimeSeconds.BackColor = System.Drawing.SystemColors.Window;
+            resources.ApplyResources(this.NumberField_LapTimeSeconds, "NumberField_LapTimeSeconds");
+            this.NumberField_LapTimeSeconds.Name = "NumberField_LapTimeSeconds";
+            this.NumberField_LapTimeSeconds.Enter += new System.EventHandler(this.NumberField_AvgFuelUsage_Enter);
+            this.NumberField_LapTimeSeconds.MouseDown += new System.Windows.Forms.MouseEventHandler(this.NumberField_AvgFuelUsage_MouseDown);
             // 
             // NumberField_AvgFuelUsage
             // 
@@ -83,180 +102,151 @@ namespace ACC_FuelCalculator
             this.NumberField_LapTimeMinutes.Enter += new System.EventHandler(this.NumberField_AvgFuelUsage_Enter);
             this.NumberField_LapTimeMinutes.MouseDown += new System.Windows.Forms.MouseEventHandler(this.NumberField_AvgFuelUsage_MouseDown);
             // 
-            // label_LapTimeHeader
+            // Label_MaxFuelCap
             // 
-            resources.ApplyResources(this.label_LapTimeHeader, "label_LapTimeHeader");
-            this.label_LapTimeHeader.Name = "label_LapTimeHeader";
+            resources.ApplyResources(this.Label_MaxFuelCap, "Label_MaxFuelCap");
+            this.Label_MaxFuelCap.Name = "Label_MaxFuelCap";
             // 
-            // Label_LapTimeMinutes
+            // Label_LapsValue
             // 
-            resources.ApplyResources(this.Label_LapTimeMinutes, "Label_LapTimeMinutes");
-            this.Label_LapTimeMinutes.CausesValidation = false;
-            this.Label_LapTimeMinutes.Name = "Label_LapTimeMinutes";
+            resources.ApplyResources(this.Label_LapsValue, "Label_LapsValue");
+            this.Label_LapsValue.Name = "Label_LapsValue";
+            // 
+            // Label_PitstopsNeededValue
+            // 
+            resources.ApplyResources(this.Label_PitstopsNeededValue, "Label_PitstopsNeededValue");
+            this.Label_PitstopsNeededValue.Name = "Label_PitstopsNeededValue";
+            // 
+            // Label_FuelNeededValue
+            // 
+            resources.ApplyResources(this.Label_FuelNeededValue, "Label_FuelNeededValue");
+            this.Label_FuelNeededValue.Name = "Label_FuelNeededValue";
+            // 
+            // Label_LapsHeader
+            // 
+            resources.ApplyResources(this.Label_LapsHeader, "Label_LapsHeader");
+            this.Label_LapsHeader.Name = "Label_LapsHeader";
+            // 
+            // Label_PitstopHeader
+            // 
+            resources.ApplyResources(this.Label_PitstopHeader, "Label_PitstopHeader");
+            this.Label_PitstopHeader.Name = "Label_PitstopHeader";
+            // 
+            // Label_FuelNeededHeader
+            // 
+            resources.ApplyResources(this.Label_FuelNeededHeader, "Label_FuelNeededHeader");
+            this.Label_FuelNeededHeader.Name = "Label_FuelNeededHeader";
             // 
             // Label_LapTimeSeconds
             // 
             resources.ApplyResources(this.Label_LapTimeSeconds, "Label_LapTimeSeconds");
             this.Label_LapTimeSeconds.Name = "Label_LapTimeSeconds";
             // 
-            // NumberField_LapTimeSeconds
+            // Label_FuelUsageInLiters
             // 
-            this.NumberField_LapTimeSeconds.BackColor = System.Drawing.SystemColors.Window;
-            resources.ApplyResources(this.NumberField_LapTimeSeconds, "NumberField_LapTimeSeconds");
-            this.NumberField_LapTimeSeconds.Name = "NumberField_LapTimeSeconds";
-            this.NumberField_LapTimeSeconds.Enter += new System.EventHandler(this.NumberField_AvgFuelUsage_Enter);
-            this.NumberField_LapTimeSeconds.MouseDown += new System.Windows.Forms.MouseEventHandler(this.NumberField_AvgFuelUsage_MouseDown);
+            resources.ApplyResources(this.Label_FuelUsageInLiters, "Label_FuelUsageInLiters");
+            this.Label_FuelUsageInLiters.Name = "Label_FuelUsageInLiters";
             // 
-            // NumberField_RaceLengthInMinutes
+            // Label_LapTimeMinutes
             // 
-            this.NumberField_RaceLengthInMinutes.BackColor = System.Drawing.SystemColors.Window;
-            resources.ApplyResources(this.NumberField_RaceLengthInMinutes, "NumberField_RaceLengthInMinutes");
-            this.NumberField_RaceLengthInMinutes.Name = "NumberField_RaceLengthInMinutes";
-            this.NumberField_RaceLengthInMinutes.Enter += new System.EventHandler(this.NumberField_AvgFuelUsage_Enter);
-            this.NumberField_RaceLengthInMinutes.MouseDown += new System.Windows.Forms.MouseEventHandler(this.NumberField_AvgFuelUsage_MouseDown);
+            this.Label_LapTimeMinutes.CausesValidation = false;
+            resources.ApplyResources(this.Label_LapTimeMinutes, "Label_LapTimeMinutes");
+            this.Label_LapTimeMinutes.Name = "Label_LapTimeMinutes";
             // 
             // Label_RaceLengthHeader
             // 
             resources.ApplyResources(this.Label_RaceLengthHeader, "Label_RaceLengthHeader");
             this.Label_RaceLengthHeader.Name = "Label_RaceLengthHeader";
             // 
-            // Label_FuelUsageInLiters
+            // Label_LapTimeHeader
             // 
-            resources.ApplyResources(this.Label_FuelUsageInLiters, "Label_FuelUsageInLiters");
-            this.Label_FuelUsageInLiters.Name = "Label_FuelUsageInLiters";
+            resources.ApplyResources(this.Label_LapTimeHeader, "Label_LapTimeHeader");
+            this.Label_LapTimeHeader.Name = "Label_LapTimeHeader";
             // 
-            // label_FuelNeededHeader
+            // Label_FuelUsageHeader
             // 
-            resources.ApplyResources(this.label_FuelNeededHeader, "label_FuelNeededHeader");
-            this.label_FuelNeededHeader.Name = "label_FuelNeededHeader";
+            resources.ApplyResources(this.Label_FuelUsageHeader, "Label_FuelUsageHeader");
+            this.Label_FuelUsageHeader.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Label_FuelUsageHeader.Name = "Label_FuelUsageHeader";
             // 
-            // label_FuelNeededValue
+            // panel1
             // 
-            resources.ApplyResources(this.label_FuelNeededValue, "label_FuelNeededValue");
-            this.label_FuelNeededValue.Name = "label_FuelNeededValue";
-            // 
-            // label_LapsHeader
-            // 
-            resources.ApplyResources(this.label_LapsHeader, "label_LapsHeader");
-            this.label_LapsHeader.Name = "label_LapsHeader";
-            // 
-            // label_LapsValue
-            // 
-            resources.ApplyResources(this.label_LapsValue, "label_LapsValue");
-            this.label_LapsValue.Name = "label_LapsValue";
-            // 
-            // label_PitstopHeader
-            // 
-            resources.ApplyResources(this.label_PitstopHeader, "label_PitstopHeader");
-            this.label_PitstopHeader.Name = "label_PitstopHeader";
-            // 
-            // label_PitstopsNeededValue
-            // 
-            resources.ApplyResources(this.label_PitstopsNeededValue, "label_PitstopsNeededValue");
-            this.label_PitstopsNeededValue.Name = "label_PitstopsNeededValue";
-            // 
-            // listBox_CarSelector
-            // 
-            resources.ApplyResources(this.listBox_CarSelector, "listBox_CarSelector");
-            this.listBox_CarSelector.FormattingEnabled = true;
-            this.listBox_CarSelector.Items.AddRange(new object[] {
-            resources.GetString("listBox_CarSelector.Items"),
-            resources.GetString("listBox_CarSelector.Items1"),
-            resources.GetString("listBox_CarSelector.Items2"),
-            resources.GetString("listBox_CarSelector.Items3"),
-            resources.GetString("listBox_CarSelector.Items4"),
-            resources.GetString("listBox_CarSelector.Items5"),
-            resources.GetString("listBox_CarSelector.Items6"),
-            resources.GetString("listBox_CarSelector.Items7"),
-            resources.GetString("listBox_CarSelector.Items8"),
-            resources.GetString("listBox_CarSelector.Items9"),
-            resources.GetString("listBox_CarSelector.Items10"),
-            resources.GetString("listBox_CarSelector.Items11"),
-            resources.GetString("listBox_CarSelector.Items12"),
-            resources.GetString("listBox_CarSelector.Items13"),
-            resources.GetString("listBox_CarSelector.Items14"),
-            resources.GetString("listBox_CarSelector.Items15"),
-            resources.GetString("listBox_CarSelector.Items16"),
-            resources.GetString("listBox_CarSelector.Items17"),
-            resources.GetString("listBox_CarSelector.Items18"),
-            resources.GetString("listBox_CarSelector.Items19"),
-            resources.GetString("listBox_CarSelector.Items20"),
-            resources.GetString("listBox_CarSelector.Items21"),
-            resources.GetString("listBox_CarSelector.Items22"),
-            resources.GetString("listBox_CarSelector.Items23"),
-            resources.GetString("listBox_CarSelector.Items24"),
-            resources.GetString("listBox_CarSelector.Items25")});
-            this.listBox_CarSelector.Name = "listBox_CarSelector";
-            this.listBox_CarSelector.SelectedIndexChanged += new System.EventHandler(this.listBox1_SelectedIndexChanged);
+            this.panel1.Controls.Add(this.Label_MaxFuelCap);
+            this.panel1.Controls.Add(this.Label_FuelUsageHeader);
+            this.panel1.Controls.Add(this.Label_LapTimeHeader);
+            this.panel1.Controls.Add(this.Label_LapTimeMinutes);
+            this.panel1.Controls.Add(this.Label_LapTimeSeconds);
+            this.panel1.Controls.Add(this.Label_RaceLengthHeader);
+            this.panel1.Controls.Add(this.Label_FuelUsageInLiters);
+            this.panel1.Controls.Add(this.Label_FuelNeededHeader);
+            this.panel1.Controls.Add(this.Label_FuelNeededValue);
+            this.panel1.Controls.Add(this.Label_LapsHeader);
+            this.panel1.Controls.Add(this.Label_LapsValue);
+            this.panel1.Controls.Add(this.Label_PitstopHeader);
+            this.panel1.Controls.Add(this.Label_PitstopsNeededValue);
+            this.panel1.Controls.Add(this.NumberField_AvgFuelUsage);
+            this.panel1.Controls.Add(this.NumberField_LapTimeMinutes);
+            this.panel1.Controls.Add(this.NumberField_LapTimeSeconds);
+            this.panel1.Controls.Add(this.NumberField_RaceLengthInMinutes);
+            this.panel1.Controls.Add(this.NumberField_TotalFuelSize);
+            this.panel1.Controls.Add(this.Button_CalculateFuel);
+            resources.ApplyResources(this.panel1, "panel1");
+            this.panel1.Name = "panel1";
             // 
             // ACC_FC_Window
             // 
-            resources.ApplyResources(this, "$this");
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.BackColor = System.Drawing.Color.White;
-            this.Controls.Add(this.listBox_CarSelector);
-            this.Controls.Add(this.label_LapsValue);
-            this.Controls.Add(this.label_PitstopsNeededValue);
-            this.Controls.Add(this.label_FuelNeededValue);
-            this.Controls.Add(this.label_LapsHeader);
-            this.Controls.Add(this.label_PitstopHeader);
-            this.Controls.Add(this.label_FuelNeededHeader);
-            this.Controls.Add(this.NumberField_RaceLengthInMinutes);
-            this.Controls.Add(this.NumberField_LapTimeSeconds);
-            this.Controls.Add(this.Label_LapTimeSeconds);
-            this.Controls.Add(this.Label_FuelUsageInLiters);
-            this.Controls.Add(this.Label_LapTimeMinutes);
-            this.Controls.Add(this.Label_RaceLengthHeader);
-            this.Controls.Add(this.label_LapTimeHeader);
-            this.Controls.Add(this.NumberField_LapTimeMinutes);
-            this.Controls.Add(this.NumberField_AvgFuelUsage);
-            this.Controls.Add(this.Label_FuelUsageHeader);
-            this.Controls.Add(this.CalculateFuelButton);
+            resources.ApplyResources(this, "$this");
+            this.Controls.Add(this.panel1);
             this.ForeColor = System.Drawing.SystemColors.Desktop;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
             this.Name = "ACC_FC_Window";
             this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Hide;
             this.Load += new System.EventHandler(this.Form1_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.NumberField_TotalFuelSize)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.NumberField_RaceLengthInMinutes)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.NumberField_LapTimeSeconds)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.NumberField_AvgFuelUsage)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.NumberField_LapTimeMinutes)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.NumberField_LapTimeSeconds)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.NumberField_RaceLengthInMinutes)).EndInit();
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
         #endregion
 
-        private System.Windows.Forms.Button CalculateFuelButton;
 
         // Labels
+        private System.Windows.Forms.Label Label_MaxFuelCap;
         private System.Windows.Forms.Label Label_FuelUsageHeader;
-        private System.Windows.Forms.Label label_LapTimeHeader;
+        private System.Windows.Forms.Label Label_LapTimeHeader;
         private System.Windows.Forms.Label Label_LapTimeMinutes;
         private System.Windows.Forms.Label Label_LapTimeSeconds;
         private System.Windows.Forms.Label Label_RaceLengthHeader;
         private System.Windows.Forms.Label Label_FuelUsageInLiters;
 
-
         // Calculation Results
-        private System.Windows.Forms.Label label_FuelNeededHeader;
-        private System.Windows.Forms.Label label_FuelNeededValue;
+        private System.Windows.Forms.Label Label_FuelNeededHeader;
+        private System.Windows.Forms.Label Label_FuelNeededValue;
         //
-        private System.Windows.Forms.Label label_LapsHeader;
-        private System.Windows.Forms.Label label_LapsValue;
-        private System.Windows.Forms.Label label_PitstopHeader;
-        private System.Windows.Forms.Label label_PitstopsNeededValue;
+        private System.Windows.Forms.Label Label_LapsHeader;
+        private System.Windows.Forms.Label Label_LapsValue;
+        private System.Windows.Forms.Label Label_PitstopHeader;
+        private System.Windows.Forms.Label Label_PitstopsNeededValue;
 
         // Input fields
         private System.Windows.Forms.NumericUpDown NumberField_AvgFuelUsage;
         private System.Windows.Forms.NumericUpDown NumberField_LapTimeMinutes;
         private System.Windows.Forms.NumericUpDown NumberField_LapTimeSeconds;
         private System.Windows.Forms.NumericUpDown NumberField_RaceLengthInMinutes;
-        private System.Windows.Forms.ListBox listBox_CarSelector;
+        private System.Windows.Forms.NumericUpDown NumberField_TotalFuelSize;
 
         //IDK
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Button Button_CalculateFuel;
     }
 }
 
