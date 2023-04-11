@@ -21,8 +21,6 @@ namespace ACC_FuelCalculator
             base.Dispose(disposing);
         }
 
-        #region Windows Form Designer generated code
-
         /// <summary>
         /// Required method for Designer support - do not modify
         /// the contents of this method with the code editor.
@@ -216,9 +214,6 @@ namespace ACC_FuelCalculator
 
         }
 
-        #endregion
-
-
         // Labels
         private System.Windows.Forms.Label Label_MaxFuelCap;
         private System.Windows.Forms.Label Label_FuelUsageHeader;
@@ -231,7 +226,7 @@ namespace ACC_FuelCalculator
         // Calculation Results
         private System.Windows.Forms.Label Label_FuelNeededHeader;
         private System.Windows.Forms.Label Label_FuelNeededValue;
-        //
+        // Final Data
         private System.Windows.Forms.Label Label_LapsHeader;
         private System.Windows.Forms.Label Label_LapsValue;
         private System.Windows.Forms.Label Label_PitstopHeader;
@@ -244,7 +239,7 @@ namespace ACC_FuelCalculator
         private System.Windows.Forms.NumericUpDown NumberField_RaceLengthInMinutes;
         private System.Windows.Forms.NumericUpDown NumberField_TotalFuelSize;
 
-        //IDK
+        // Random
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Button Button_CalculateFuel;
     }
